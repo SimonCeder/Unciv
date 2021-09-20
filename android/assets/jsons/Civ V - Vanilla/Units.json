@@ -18,6 +18,18 @@
 		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"}
+{ "text": "Settlers are used to found new cities. They can only be built in cities with a population of at least 2, and the city stops growing while producing the Settler." }
+{ "separator": true },
+{ "header": 3, "text": "Strategy"}
+{ "text": "When possible, escort your settlers with military units as they are defenseless against Barbarians and other enemies. Remember that each new founded city affects your Happiness." }
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"}
+{ "text": "Among the earliest known cities are Jericho and Catalhöyük, dated to the 8th millenium BC. They were largely composed of domestic buildings, with little evidence of public buildings. During the 4th and 3rd millenium BC, a number of large cities flourished in Mesopotamia, India, China, and Egypt. These cities contained evidence of centralized rule and extensive public works."}
+{ "text": "In modern usage, a settler refers to people from a sedentary culture who move into and start using land previously either unused or used by non-sedentary peoples. Various states have used settlers in more or less intentional manners to spread their culture and extend their rule over peripheral areas, such as the Arab Islamization of the Middle East, the American Manifest Destiny, or the English Plantations of Ireland." }
+{ "separator": true },
+		]
 	},
 	{
 		"name": "Scout",
