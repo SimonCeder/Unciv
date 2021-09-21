@@ -9,6 +9,17 @@
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles"],
 		"cost": 70
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"}
+{ "text": "" }
+{ "separator": true },
+{ "header": 3, "text": "Strategy"}
+{ "text": "" }
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"}
+{ "text": ""}
+{ "separator": true },
+		]
 	},
 	{
 		"name": "Settler",
@@ -27,6 +38,7 @@
 { "separator": true },
 { "header": 3, "text": "Historical Info"}
 { "text": "Among the earliest known cities are Jericho and Catalhöyük, dated to the 8th millenium BC. They were largely composed of domestic buildings, with little evidence of public buildings. During the 4th and 3rd millenium BC, a number of large cities flourished in Mesopotamia, India, China, and Egypt. These cities contained evidence of centralized rule and extensive public works."}
+{ "text": "Later states would send out organized settlers to found colonies as their population grew. The first millenium BC saw an explosion of Greek and Phoenician colonies around the mediterranean, meanwhile the Han Chinese were colonizing the Ordos basin through the Tuntian system. The resulting colonies maintained diplomatic ties and some sense of identity with their mother cities." }
 { "text": "In modern usage, a settler refers to people from a sedentary culture who move into and start using land previously either unused or used by non-sedentary peoples. Various states have used settlers in more or less intentional manners to spread their culture and extend their rule over peripheral areas, such as the Arab Islamization of the Middle East, the American Manifest Destiny, or the English Plantations of Ireland." }
 { "separator": true },
 		]
@@ -41,6 +53,18 @@
 		"uniques": ["May upgrade to [Archer] through ruins-like effects"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"}
+{ "text": "Early-game scouting unit. Scouts can cross difficult terrain without stopping and have access to special promotions that let them see further." }
+{ "separator": true },
+{ "header": 3, "text": "Strategy"}
+{ "text": "Use them to quickly find Ancient Ruins and City States, especially on starts with lots of rough terrain. When entering an Ancient Ruin, a Scout may be upgraded to an Archer, which then keeps its promotions, including the ability to ignore terrain costs." }
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"}
+{ "text": "Early exploration was directed at finding trade contacts, and rare resources to exploit. During the Mediterranean Bronze age, tin was a valuable commodity and the Phoenicians sent exlorers as far as Britain to source this metal." }
+{ "text": "Scouting was also performed in a military context to get an assessment of enemy strengths and disposition. At the battle of Kadesh in 1274 BC, the Hittites were able to get an initial advantage over the Egyptians thanks to their better scouting." }
+{ "separator": true },
+		]
 	},
 	{
 		"name": "Warrior",
@@ -52,8 +76,16 @@
 		"upgradesTo": "Swordsman",
 		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
-        "civilopediaText": [
-			{"text": "This is your basic, club-swinging fighter."}
+        	"civilopediaText": [
+{ "header": 3, "text": "Game Info"}
+{"text": "This is your basic, club-swinging fighter."}
+{ "separator": true },
+{ "header": 3, "text": "Strategy"}
+{ "text": "The only military unit that can be built at the start of the game. Used for early scouting, guarding workers and settlers from barbarian, and extorting tribute from City States." }
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"}
+{ "text": "Pre-historical warfare was centered around ambushing and raiding since it was not possible to effectively conquer foreign lands. The very first warriors were non-proffesionals, tribesmen gathered into ad hoc warbands. They might be armed with clubs, spears and slings."}
+{ "separator": true },
 		]
 	},
 	{
@@ -68,6 +100,18 @@
 		"promotions": ["Haka War Dance"],
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"}
+{ "text": "This Polynesian Unique Unit comes with a unique promotion that is carried on through upgrades." }
+{ "separator": true },
+{ "header": 3, "text": "Strategy"}
+{ "text": "Since the Haka War Dance can not be gained in any other way, consider building several Maori Warriors and upgrading them throughout the game." }
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"}
+{ "text": "The Maori are a Polynesian people that settled in Aotearoa (New Zealand) ca 1300 AD. They developed a fierce warrior culture with elaborately carved stone weaponry and impressive hillforts called \'pā\'. Other distinctive features include the \'Haka\' dance traditionally performed by warriors preparing for battle, and face-covering tattoos called \'Tā moko\'." }
+{ "text": "The British claimed and colonized New Zealand in the 18th century. This led to a brutal series of conflicts within the Maori known as the Musket Wars, followed by a series of long and drawn-out wars against the British. The Maori resisted the British fiercely despite being outnumbered and outgunned thanks in part to their use of pā forts, but in the end succumbed to the overwhelming force of an industrialized economy." }
+{ "separator": true },
+		]
 	},
 	{
 		"name": "Jaguar",
