@@ -78,7 +78,7 @@
 		"attackSound": "nonmetalhit",
         	"civilopediaText": [
 { "header": 3, "text": "Game Info"}
-{"text": "This is your basic, club-swinging fighter."}
+{"text": "This is your basic, club-swinging fighter. The earliest military unit."}
 { "separator": true },
 { "header": 3, "text": "Strategy"}
 { "text": "The only military unit that can be built at the start of the game. Used for early scouting, guarding workers and settlers from barbarian, and extorting tribute from City States." }
@@ -172,6 +172,18 @@
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"}
+{ "text": "The Archer is the first ranged unit of the game, buildable in the Ancient Era." }
+{ "separator": true },
+{ "header": 3, "text": "Strategy"}
+{ "text": "Ranged units are vulnerable to attack from melee units. They are best used in combination with protecting melee units, or standing inside cities." }
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"}
+{ "text": "Arrowheads have been found from the Paleolithic age, possibly as early as 60,000 years ago. The earliest bows were used for hunting, but the bow as a weapon of war is perhaps as old as war itself. Several cave paintings in Spain from the Mesolithic depict battles between archers."}
+{ "text": "Massed archers as a military unit were adopted by all the early urbanized civilizations, in Egypt, Mesopotamia, India, and China. Archery would remain an important part of militaries until the advent of gunpowder weapons." }
+{ "separator": true },
+		]
 	},
 	{
 		"name": "Bowman",
@@ -186,6 +198,17 @@
 		"uniqueTo": "Babylon",
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"}
+{ "text": "This Babylonian Unique Unit has a higher attack and is also more resisten to melee attacks than the Archer which it replaces." }
+{ "separator": true },
+{ "header": 3, "text": "Strategy"}
+{ "text": "The Bowman is a formidable early game unit and together with the Walls of Babylon make the Babylonians very difficult to conquer in the early game." }
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"}
+{ "text": "During the Neo-Babylonian empire of Nebuchadnezzar, a levy system was introduced where temples, cities and client kingdoms had to supply a certain number of armed men each. The majority of these were archers, and there are records of the extensive bowmaking facilities required to supply these soldiers with bows as well as 40-60 arrows each. The archer levies were divided by professions into units called \'Ešertu\', which may have increased their cohesion."}
+{ "separator": true },
+		]
 	},
 	{
 		"name": "Slinger",
@@ -201,6 +224,17 @@
 		"upgradesTo": "Composite Bowman",
 		"promotions": ["Slinger Withdraw"],
 		"attackSound": "arrow"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"}
+{ "text": "This Incan Unique Unit has the ability to withdraw when attacked by an enemy melee unit, making them less vulnerable to attack." }
+{ "separator": true },
+{ "header": 3, "text": "Strategy"}
+{ "text": "The unique ability to withdraw means that the Slinger is more able to operate alone than the basic Archer. Coupled with the Incan ability of moving quickly through Hills, this makes them useful for scouting or clearing barbarians in the early game." }
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"}
+{ "text": "The first slings appeared during the Neolithic and they have been used all over the world. The Andean slings were made from llama wool and dyed in bright contrasting colors. Incans used the sling extensively when fighting the Spanish and witnesses report that the Incan slings could break a sword in two pieces, or kill a horse with a single shot."}
+{ "separator": true },
+		]
 	},
 	/*
 	{
@@ -226,6 +260,17 @@
 		"cost": 30,
 		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles until Astronomy", "May create improvements on water resources", "Uncapturable"]
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"}
+{ "text": "Needed to create improvements on water tiles. Unlike the Worker, creating an improvement with the Work Boats consumes the unit." }
+{ "separator": true },
+{ "header": 3, "text": "Strategy"}
+{ "text": "Create these whenever you need to improve a water resource. Remember that they, as well as the improvements they create, are vulnerable to Barbarian and enemy warships." }
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"}
+{ "text": "Fishing for food dates back at least 40,000 years. The earliest fishing tools were lines with bone hooks, but a major improvement came with the use of gillnets which allowed a large amount of fish to be caught in a very efficient manner. Seafood was a major part of the diet of all people living close to the sea. In the modern day, technologies such as sonar has improved the efficiency of fishing to such a degree that stocks are being depleted and there are often conflicts over fishing rights, such as the Cod War, Turbot War, Lobster War, and Scallop War." }
+{ "separator": true },
+		]
 	},
 	{
 		"name": "Trireme",
@@ -238,6 +283,17 @@
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"}
+{ "text": "Ancient era warship. It can only travel close to the coast." }
+{ "separator": true },
+{ "header": 3, "text": "Strategy"}
+{ "text": "The Trireme is useful for scouting on island starts, as well as protecting your fishing boats. Its limited mobility and low strength makes it of little use in attacking the enemy, although it can take cities that have been reduced by ranged attacks." }
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"}
+{ "text": "The Trireme was a type of galley used in the Ancient Mediterranean, distinguished by having three banks of rowers. The rowers were free men and rowing was an important part of the military service expected in society. In battle, the main tactic used by triremes was ramming, in order to break the hull of the enemy ship. The trireme remained in use throughout Antiquity, but was eventually superseded by the larger Quinqueremes as well as the later Dromon."}
+{ "separator": true },
+		]
 	},
 	{
 		"name": "Quinquereme",
