@@ -126,6 +126,17 @@
 		"promotions": ["Woodsman"],
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"}
+{ "text": "This Aztec Unique Unit is able to move through Forests and Jungles unhindered and excels at fighting in those tiles." }
+{ "separator": true },
+{ "header": 3, "text": "Strategy"}
+{ "text": "Being able to move through Forests and Jungles unhindered means that the Aztecs are less reliant on Scouts for early exploration. The unique ability to heal after killing an enemy means the Jaguar can fight barbarians more frequently without having to retreat to heal." }
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"}
+{ "text": "The Jaguar Warriors were an elite group of Aztec soldiers that wore jaguar skins into battle. They fought with the \'macuahuitl\', a wooden club studded with obsidian blades, which the Spanish found were just as effective as steel swords when used properly. The macuahuitl also had a flat side which could be used to club an enemy without killing them, which was useful when taking captives. The Jaguar Warriors were often tasked with taking sacrificial captives which were important in the Aztec religion. To become a Jaguar Warrior, one had to capture a total of four live enemies."}
+{ "separator": true },
+		]
 	},
 	{
 		"name": "Brute",
@@ -139,6 +150,17 @@
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
 	},
+"civilopediaText": [
+{ "header": 3, "text": "Game Info"}
+{ "text": "An unwashed barbarian, aiming to tear down all that you have built!" }
+{ "separator": true },
+{ "header": 3, "text": "Strategy"}
+{ "text": "These units are only avaliable to the Barbarians, and to the Germans when capturing them. They are otherwise similar to the Warrior." }
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"}
+{ "text": "The word \'barbarian\', meaning someone uncivilized or primitive, was first used by the ancient Greeks to refer to anyone not speaking Greek. The term eventually came to mean anyone from outside the broader Greco-Roman civilization. The term lives on in the name of the Berber people as well as \'the Barbary Coast\'."}
+{ "separator": true },
+		]
 	{
 		"name": "Archer",
 		"unitType": "Archery",
