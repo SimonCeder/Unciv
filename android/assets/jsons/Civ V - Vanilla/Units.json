@@ -8,17 +8,17 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles"],
-		"cost": 70
+		"cost": 70,
 		"civilopediaText": [
-{ "header": 3, "text": "Game Info"}
-{ "text": "" }
+{ "header": 3, "text": "Game Info"},
+{ "text": "" },
 { "separator": true },
-{ "header": 3, "text": "Strategy"}
-{ "text": "" }
+{ "header": 3, "text": "Strategy"},
+{ "text": "" },
 { "separator": true },
-{ "header": 3, "text": "Historical Info"}
-{ "text": ""}
-{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": ""},
+{ "separator": true }
 		]
 	},
 	{
@@ -28,19 +28,19 @@
 		"cost": 106,
 		"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
-		"hurryCostModifier": 20
+		"hurryCostModifier": 20,
 		"civilopediaText": [
-{ "header": 3, "text": "Game Info"}
-{ "text": "Settlers are used to found new cities. They can only be built in cities with a population of at least 2, and the city stops growing while producing the Settler." }
+{ "header": 3, "text": "Game Info"},
+{ "text": "Settlers are used to found new cities. They can only be built in cities with a population of at least 2, and the city stops growing while producing the Settler." },
 { "separator": true },
-{ "header": 3, "text": "Strategy"}
-{ "text": "When possible, escort your settlers with military units as they are defenseless against Barbarians and other enemies. Remember that each new founded city affects your Happiness." }
+{ "header": 3, "text": "Strategy"},
+{ "text": "When possible, escort your settlers with military units as they are defenseless against Barbarians and other enemies. Remember that each new founded city affects your Happiness." },
 { "separator": true },
-{ "header": 3, "text": "Historical Info"}
-{ "text": "Among the earliest known cities are Jericho and Catalhöyük, dated to the 8th millenium BC. They were largely composed of domestic buildings, with little evidence of public buildings. During the 4th and 3rd millenium BC, a number of large cities flourished in Mesopotamia, India, China, and Egypt. These cities contained evidence of centralized rule and extensive public works."}
-{ "text": "Later states would send out organized settlers to found colonies as their population grew. The first millenium BC saw an explosion of Greek and Phoenician colonies around the mediterranean, meanwhile the Han Chinese were colonizing the Ordos basin through the Tuntian system. The resulting colonies maintained diplomatic ties and some sense of identity with their mother cities." }
-{ "text": "In modern usage, a settler refers to people from a sedentary culture who move into and start using land previously either unused or used by non-sedentary peoples. Various states have used settlers in more or less intentional manners to spread their culture and extend their rule over peripheral areas, such as the Arab Islamization of the Middle East, the American Manifest Destiny, or the English Plantations of Ireland." }
-{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "Among the earliest known cities are Jericho and Catalhöyük, dated to the 8th millenium BC. They were largely composed of domestic buildings, with little evidence of public buildings. During the 4th and 3rd millenium BC, a number of large cities flourished in Mesopotamia, India, China, and Egypt. These cities contained evidence of centralized rule and extensive public works."},
+{ "text": "Later states would send out organized settlers to found colonies as their population grew. The first millenium BC saw an explosion of Greek and Phoenician colonies around the mediterranean, meanwhile the Han Chinese were colonizing the Ordos basin through the Tuntian system. The resulting colonies maintained diplomatic ties and some sense of identity with their mother cities." },
+{ "text": "In modern usage, a settler refers to people from a sedentary culture who move into and start using land previously either unused or used by non-sedentary peoples. Various states have used settlers in more or less intentional manners to spread their culture and extend their rule over peripheral areas, such as the Arab Islamization of the Middle East, the American Manifest Destiny, or the English Plantations of Ireland." },
+{ "separator": true }
 		]
 	},
 	{
@@ -52,18 +52,18 @@
 		"obsoleteTech": "Scientific Theory",
 		"uniques": ["May upgrade to [Archer] through ruins-like effects"],
 		"promotions": ["Ignore terrain cost"],
-		"attackSound": "nonmetalhit"
+		"attackSound": "nonmetalhit",
 		"civilopediaText": [
-{ "header": 3, "text": "Game Info"}
-{ "text": "Early-game scouting unit. Scouts can cross difficult terrain without stopping and have access to special promotions that let them see further." }
+{ "header": 3, "text": "Game Info"},
+{ "text": "Early-game scouting unit. Scouts can cross difficult terrain without stopping and have access to special promotions that let them see further." },
 { "separator": true },
-{ "header": 3, "text": "Strategy"}
-{ "text": "Use them to quickly find Ancient Ruins and City States, especially on starts with lots of rough terrain. When entering an Ancient Ruin, a Scout may be upgraded to an Archer, which then keeps its promotions, including the ability to ignore terrain costs." }
+{ "header": 3, "text": "Strategy"},
+{ "text": "Use them to quickly find Ancient Ruins and City States, especially on starts with lots of rough terrain. When entering an Ancient Ruin, a Scout may be upgraded to an Archer, which then keeps its promotions, including the ability to ignore terrain costs." },
 { "separator": true },
-{ "header": 3, "text": "Historical Info"}
-{ "text": "Early exploration was directed at finding trade contacts, and rare resources to exploit. During the Mediterranean Bronze age, tin was a valuable commodity and the Phoenicians sent exlorers as far as Britain to source this metal." }
-{ "text": "Scouting was also performed in a military context to get an assessment of enemy strengths and disposition. At the battle of Kadesh in 1274 BC, the Hittites were able to get an initial advantage over the Egyptians thanks to their better scouting." }
-{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "Early exploration was directed at finding trade contacts, and rare resources to exploit. During the Mediterranean Bronze age, tin was a valuable commodity and the Phoenicians sent exlorers as far as Britain to source this metal." },
+{ "text": "Scouting was also performed in a military context to get an assessment of enemy strengths and disposition. At the battle of Kadesh in 1274 BC, the Hittites were able to get an initial advantage over the Egyptians thanks to their better scouting." },
+{ "separator": true }
 		]
 	},
 	{
@@ -77,15 +77,15 @@
 		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
         	"civilopediaText": [
-{ "header": 3, "text": "Game Info"}
-{"text": "This is your basic, club-swinging fighter. The earliest military unit."}
+{ "header": 3, "text": "Game Info"},
+{"text": "This is your basic, club-swinging fighter. The earliest military unit."},
 { "separator": true },
-{ "header": 3, "text": "Strategy"}
-{ "text": "The only military unit that can be built at the start of the game. Used for early scouting, guarding workers and settlers from barbarian, and extorting tribute from City States." }
+{ "header": 3, "text": "Strategy"},
+{ "text": "The only military unit that can be built at the start of the game. Used for early scouting, guarding workers and settlers from barbarian, and extorting tribute from City States." },
 { "separator": true },
-{ "header": 3, "text": "Historical Info"}
-{ "text": "Pre-historical warfare was centered around ambushing and raiding since it was not possible to effectively conquer foreign lands. The very first warriors were non-proffesionals, tribesmen gathered into ad hoc warbands. They might be armed with clubs, spears and slings."}
-{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "Pre-historical warfare was centered around ambushing and raiding since it was not possible to effectively conquer foreign lands. The very first warriors were non-proffesionals, tribesmen gathered into ad hoc warbands. They might be armed with clubs, spears and slings."},
+{ "separator": true }
 		]
 	},
 	{
@@ -99,18 +99,18 @@
 		"obsoleteTech": "Metal Casting",
 		"promotions": ["Haka War Dance"],
 		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit"
+		"attackSound": "nonmetalhit",
 		"civilopediaText": [
-{ "header": 3, "text": "Game Info"}
-{ "text": "This Polynesian Unique Unit comes with a unique promotion that is carried on through upgrades." }
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Polynesian Unique Unit comes with a unique promotion that is carried on through upgrades." },
 { "separator": true },
-{ "header": 3, "text": "Strategy"}
-{ "text": "Since the Haka War Dance can not be gained in any other way, consider building several Maori Warriors and upgrading them throughout the game." }
+{ "header": 3, "text": "Strategy"},
+{ "text": "Since the Haka War Dance can not be gained in any other way, consider building several Maori Warriors and upgrading them throughout the game." },
 { "separator": true },
-{ "header": 3, "text": "Historical Info"}
-{ "text": "The Maori are a Polynesian people that settled in Aotearoa (New Zealand) ca 1300 AD. They developed a fierce warrior culture with elaborately carved stone weaponry and impressive hillforts called \'pā\'. Other distinctive features include the \'Haka\' dance traditionally performed by warriors preparing for battle, and face-covering tattoos called \'Tā moko\'." }
-{ "text": "The British claimed and colonized New Zealand in the 18th century. This led to a brutal series of conflicts within the Maori known as the Musket Wars, followed by a series of long and drawn-out wars against the British. The Maori resisted the British fiercely despite being outnumbered and outgunned thanks in part to their use of pā forts, but in the end succumbed to the overwhelming force of an industrialized economy." }
-{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The Maori are a Polynesian people that settled in Aotearoa (New Zealand) ca 1300 AD. They developed a fierce warrior culture with elaborately carved stone weaponry and impressive hillforts called 'pā'. Other distinctive features include the 'Haka' dance traditionally performed by warriors preparing for battle, and face-covering tattoos called 'Tā moko'." },
+{ "text": "The British claimed and colonized New Zealand in the 18th century. This led to a brutal series of conflicts within the Maori known as the Musket Wars, followed by a series of long and drawn-out wars against the British. The Maori resisted the British fiercely despite being outnumbered and outgunned thanks in part to their use of pā forts, but in the end succumbed to the overwhelming force of an industrialized economy." },
+{ "separator": true }
 		]
 	},
 	{
@@ -125,17 +125,17 @@
 		"uniques": ["+[33]% Strength in [Forest]", "+[33]% Strength in [Jungle]", "Heals [25] damage if it kills a unit"],
 		"promotions": ["Woodsman"],
 		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit"
+		"attackSound": "nonmetalhit",
 		"civilopediaText": [
-{ "header": 3, "text": "Game Info"}
-{ "text": "This Aztec Unique Unit is able to move through Forests and Jungles unhindered and excels at fighting in those tiles." }
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Aztec Unique Unit is able to move through Forests and Jungles unhindered and excels at fighting in those tiles." },
 { "separator": true },
-{ "header": 3, "text": "Strategy"}
-{ "text": "Being able to move through Forests and Jungles unhindered means that the Aztecs are less reliant on Scouts for early exploration. The unique ability to heal after killing an enemy means the Jaguar can fight barbarians more frequently without having to retreat to heal." }
+{ "header": 3, "text": "Strategy"},
+{ "text": "Being able to move through Forests and Jungles unhindered means that the Aztecs are less reliant on Scouts for early exploration. The unique ability to heal after killing an enemy means the Jaguar can fight barbarians more frequently without having to retreat to heal." },
 { "separator": true },
-{ "header": 3, "text": "Historical Info"}
-{ "text": "The Jaguar Warriors were an elite group of Aztec soldiers that wore jaguar skins into battle. They fought with the \'macuahuitl\', a wooden club studded with obsidian blades, which the Spanish found were just as effective as steel swords when used properly. The macuahuitl also had a flat side which could be used to club an enemy without killing them, which was useful when taking captives. The Jaguar Warriors were often tasked with taking sacrificial captives which were important in the Aztec religion. To become a Jaguar Warrior, one had to capture a total of four live enemies."}
-{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The Jaguar Warriors were an elite group of Aztec soldiers that wore jaguar skins into battle. They fought with the 'macuahuitl', a wooden club studded with obsidian blades, which the Spanish found were just as effective as steel swords when used properly. The macuahuitl also had a flat side which could be used to club an enemy without killing them, which was useful when taking captives. The Jaguar Warriors were often tasked with taking sacrificial captives which were important in the Aztec religion. To become a Jaguar Warrior, one had to capture a total of four live enemies."},
+{ "separator": true }
 		]
 	},
 	{
@@ -148,19 +148,19 @@
 		"cost": 20,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit"
-	},
-"civilopediaText": [
-{ "header": 3, "text": "Game Info"}
-{ "text": "An unwashed barbarian, aiming to tear down all that you have built!" }
+		"attackSound": "nonmetalhit",
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "An unwashed barbarian, aiming to tear down all that you have built!" },
 { "separator": true },
-{ "header": 3, "text": "Strategy"}
-{ "text": "These units are only avaliable to the Barbarians, and to the Germans when capturing them. They are otherwise similar to the Warrior." }
+{ "header": 3, "text": "Strategy"},
+{ "text": "These units are only avaliable to the Barbarians, and to the Germans when capturing them. They are otherwise similar to the Warrior." },
 { "separator": true },
-{ "header": 3, "text": "Historical Info"}
-{ "text": "The word \'barbarian\', meaning someone uncivilized or primitive, was first used by the ancient Greeks to refer to anyone not speaking Greek. The term eventually came to mean anyone from outside the broader Greco-Roman civilization. The term lives on in the name of the Berber people as well as \'the Barbary Coast\'."}
-{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The word 'barbarian', meaning someone uncivilized or primitive, was first used by the ancient Greeks to refer to anyone not speaking Greek. The term eventually came to mean anyone from outside the broader Greco-Roman civilization. The term lives on in the name of the Berber people as well as 'the Barbary Coast'."},
+{ "separator": true }
 		]
+	},
 	{
 		"name": "Archer",
 		"unitType": "Archery",
@@ -171,18 +171,18 @@
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Composite Bowman",
-		"attackSound": "arrow"
+		"attackSound": "arrow",
 		"civilopediaText": [
-{ "header": 3, "text": "Game Info"}
-{ "text": "The Archer is the first ranged unit of the game, buildable in the Ancient Era." }
+{ "header": 3, "text": "Game Info"},
+{ "text": "The Archer is the first ranged unit of the game, buildable in the Ancient Era." },
 { "separator": true },
-{ "header": 3, "text": "Strategy"}
-{ "text": "Ranged units are vulnerable to attack from melee units. They are best used in combination with protecting melee units, or standing inside cities." }
+{ "header": 3, "text": "Strategy"},
+{ "text": "Ranged units are vulnerable to attack from melee units. They are best used in combination with protecting melee units, or standing inside cities." },
 { "separator": true },
-{ "header": 3, "text": "Historical Info"}
-{ "text": "Arrowheads have been found from the Paleolithic age, possibly as early as 60,000 years ago. The earliest bows were used for hunting, but the bow as a weapon of war is perhaps as old as war itself. Several cave paintings in Spain from the Mesolithic depict battles between archers."}
-{ "text": "Massed archers as a military unit were adopted by all the early urbanized civilizations, in Egypt, Mesopotamia, India, and China. Archery would remain an important part of militaries until the advent of gunpowder weapons." }
-{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "Arrowheads have been found from the Paleolithic age, possibly as early as 60,000 years ago. The earliest bows were used for hunting, but the bow as a weapon of war is perhaps as old as war itself. Several cave paintings in Spain from the Mesolithic depict battles between archers."},
+{ "text": "Massed archers as a military unit were adopted by all the early urbanized civilizations, in Egypt, Mesopotamia, India, and China. Archery would remain an important part of militaries until the advent of gunpowder weapons." },
+{ "separator": true }
 		]
 	},
 	{
@@ -199,15 +199,15 @@
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
 		"civilopediaText": [
-{ "header": 3, "text": "Game Info"}
-{ "text": "This Babylonian Unique Unit has a higher attack and is also more resisten to melee attacks than the Archer which it replaces." }
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Babylonian Unique Unit has a higher attack and is also more resisten to melee attacks than the Archer which it replaces." },
 { "separator": true },
-{ "header": 3, "text": "Strategy"}
-{ "text": "The Bowman is a formidable early game unit and together with the Walls of Babylon make the Babylonians very difficult to conquer in the early game." }
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Bowman is a formidable early game unit and together with the Walls of Babylon make the Babylonians very difficult to conquer in the early game." },
 { "separator": true },
-{ "header": 3, "text": "Historical Info"}
-{ "text": "During the Neo-Babylonian empire of Nebuchadnezzar, a levy system was introduced where temples, cities and client kingdoms had to supply a certain number of armed men each. The majority of these were archers, and there are records of the extensive bowmaking facilities required to supply these soldiers with bows as well as 40-60 arrows each. The archer levies were divided by professions into units called \'Ešertu\', which may have increased their cohesion."}
-{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "During the Neo-Babylonian empire of Nebuchadnezzar, a levy system was introduced where temples, cities and client kingdoms had to supply a certain number of armed men each. The majority of these were archers, and there are records of the extensive bowmaking facilities required to supply these soldiers with bows as well as 40-60 arrows each. The archer levies were divided by professions into units called 'Ešertu', which may have increased their cohesion."},
+{ "separator": true }
 		]
 	},
 	{
@@ -223,17 +223,17 @@
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Composite Bowman",
 		"promotions": ["Slinger Withdraw"],
-		"attackSound": "arrow"
+		"attackSound": "arrow",
 		"civilopediaText": [
-{ "header": 3, "text": "Game Info"}
-{ "text": "This Incan Unique Unit has the ability to withdraw when attacked by an enemy melee unit, making them less vulnerable to attack." }
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Incan Unique Unit has the ability to withdraw when attacked by an enemy melee unit, making them less vulnerable to attack." },
 { "separator": true },
-{ "header": 3, "text": "Strategy"}
-{ "text": "The unique ability to withdraw means that the Slinger is more able to operate alone than the basic Archer. Coupled with the Incan ability of moving quickly through Hills, this makes them useful for scouting or clearing barbarians in the early game." }
+{ "header": 3, "text": "Strategy"},
+{ "text": "The unique ability to withdraw means that the Slinger is more able to operate alone than the basic Archer. Coupled with the Incan ability of moving quickly through Hills, this makes them useful for scouting or clearing barbarians in the early game." },
 { "separator": true },
-{ "header": 3, "text": "Historical Info"}
-{ "text": "The first slings appeared during the Neolithic and they have been used all over the world. The Andean slings were made from llama wool and dyed in bright contrasting colors. Incans used the sling extensively when fighting the Spanish and witnesses report that the Incan slings could break a sword in two pieces, or kill a horse with a single shot."}
-{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The first slings appeared during the Neolithic and they have been used all over the world. The Andean slings were made from llama wool and dyed in bright contrasting colors. Incans used the sling extensively when fighting the Spanish and witnesses report that the Incan slings could break a sword in two pieces, or kill a horse with a single shot."},
+{ "separator": true }
 		]
 	},
 	/*
@@ -259,17 +259,17 @@
 		"movement": 4,
 		"cost": 30,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles until Astronomy", "May create improvements on water resources", "Uncapturable"]
+		"uniques": ["Cannot enter ocean tiles until Astronomy", "May create improvements on water resources", "Uncapturable"],
 		"civilopediaText": [
-{ "header": 3, "text": "Game Info"}
-{ "text": "Needed to create improvements on water tiles. Unlike the Worker, creating an improvement with the Work Boats consumes the unit." }
+{ "header": 3, "text": "Game Info"},
+{ "text": "Needed to create improvements on water tiles. Unlike the Worker, creating an improvement with the Work Boats consumes the unit." },
 { "separator": true },
-{ "header": 3, "text": "Strategy"}
-{ "text": "Create these whenever you need to improve a water resource. Remember that they, as well as the improvements they create, are vulnerable to Barbarian and enemy warships." }
+{ "header": 3, "text": "Strategy"},
+{ "text": "Create these whenever you need to improve a water resource. Remember that they, as well as the improvements they create, are vulnerable to Barbarian and enemy warships." },
 { "separator": true },
-{ "header": 3, "text": "Historical Info"}
-{ "text": "Fishing for food dates back at least 40,000 years. The earliest fishing tools were lines with bone hooks, but a major improvement came with the use of gillnets which allowed a large amount of fish to be caught in a very efficient manner. Seafood was a major part of the diet of all people living close to the sea. In the modern day, technologies such as sonar has improved the efficiency of fishing to such a degree that stocks are being depleted and there are often conflicts over fishing rights, such as the Cod War, Turbot War, Lobster War, and Scallop War." }
-{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "Fishing for food dates back at least 40,000 years. The earliest fishing tools were lines with bone hooks, but a major improvement came with the use of gillnets which allowed a large amount of fish to be caught in a very efficient manner. Seafood was a major part of the diet of all people living close to the sea. In the modern day, technologies such as sonar has improved the efficiency of fishing to such a degree that stocks are being depleted and there are often conflicts over fishing rights, such as the Cod War, Turbot War, Lobster War, and Scallop War." },
+{ "separator": true }
 		]
 	},
 	{
@@ -282,17 +282,17 @@
 		"uniques": ["Cannot enter ocean tiles"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
-		"attackSound": "nonmetalhit"
+		"attackSound": "nonmetalhit",
 		"civilopediaText": [
-{ "header": 3, "text": "Game Info"}
-{ "text": "Ancient era warship. It can only travel close to the coast." }
+{ "header": 3, "text": "Game Info"},
+{ "text": "Ancient era warship. It can only travel close to the coast." },
 { "separator": true },
-{ "header": 3, "text": "Strategy"}
-{ "text": "The Trireme is useful for scouting on island starts, as well as protecting your fishing boats. Its limited mobility and low strength makes it of little use in attacking the enemy, although it can take cities that have been reduced by ranged attacks." }
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Trireme is useful for scouting on island starts, as well as protecting your fishing boats. Its limited mobility and low strength makes it of little use in attacking the enemy, although it can take cities that have been reduced by ranged attacks." },
 { "separator": true },
-{ "header": 3, "text": "Historical Info"}
-{ "text": "The Trireme was a type of galley used in the Ancient Mediterranean, distinguished by having three banks of rowers. The rowers were free men and rowing was an important part of the military service expected in society. In battle, the main tactic used by triremes was ramming, in order to break the hull of the enemy ship. The trireme remained in use throughout Antiquity, but was eventually superseded by the larger Quinqueremes as well as the later Dromon."}
-{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The Trireme was a type of galley used in the Ancient Mediterranean, distinguished by having three banks of rowers. The rowers were free men and rowing was an important part of the military service expected in society. In battle, the main tactic used by triremes was ramming, in order to break the hull of the enemy ship. The trireme remained in use throughout Antiquity, but was eventually superseded by the larger Quinqueremes as well as the later Dromon."},
+{ "separator": true }
 		]
 	},
 	{
