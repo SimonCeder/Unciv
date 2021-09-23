@@ -122,6 +122,7 @@ class CivilizationInfo {
     var greatPeople = GreatPersonManager()
     var victoryManager = VictoryManager()
     var ruinsManager = RuinsManager()
+    var espionageManager = EspionageManager()
     var diplomacy = HashMap<String, DiplomacyManager>()
     var proximity = HashMap<String, Proximity>()
     var notifications = ArrayList<Notification>()
@@ -182,6 +183,7 @@ class CivilizationInfo {
         toReturn.goldenAges = goldenAges.clone()
         toReturn.greatPeople = greatPeople.clone()
         toReturn.ruinsManager = ruinsManager.clone()
+        toReturn.espionageManager = espionageManager.clone()
         toReturn.victoryManager = victoryManager.clone()
         toReturn.allyCivName = allyCivName
         for (diplomacyManager in diplomacy.values.map { it.clone() })
@@ -660,6 +662,9 @@ class CivilizationInfo {
 
         ruinsManager.setTransients(this)
 
+        espionageManager.civInfo = this
+        espionageManager.setTransients()
+
         for (diplomacyManager in diplomacy.values) {
             diplomacyManager.civInfo = this
             diplomacyManager.updateHasOpenBorders()
@@ -754,6 +759,8 @@ class CivilizationInfo {
             tech.endTurn(nextTurnStats.science.toInt())
 
         religionManager.endTurn(nextTurnStats.faith.toInt())
+
+        espionageManager.endTurn()
 
         if (isMajorCiv()) greatPeople.addGreatPersonPoints(getGreatPersonPointsForNextTurn()) // City-states don't get great people!
 
