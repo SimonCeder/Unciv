@@ -84,6 +84,13 @@ class CivInfoTransientUpdater(val civInfo: CivilizationInfo) {
             }
         }
 
+        for (surveillanceCity in civInfo.espionageManager.spies
+                .filter { it.surveillanceEstablished && it.currentCity != null }
+                .map { it.currentCity!! } ) {
+            newViewableTiles.add(surveillanceCity.getCenterTile())
+            newViewableTiles.addAll(surveillanceCity.getCenterTile().neighbors)
+        }
+
         civInfo.viewableTiles = newViewableTiles // to avoid concurrent modification problems
     }
 

@@ -5,6 +5,7 @@ import com.unciv.logic.battle.CityCombatant
 import com.unciv.logic.civilization.CivilizationInfo
 import com.unciv.logic.civilization.Proximity
 import com.unciv.logic.civilization.ReligionState
+import com.unciv.logic.civilization.SpyStatus
 import com.unciv.logic.civilization.diplomacy.DiplomacyFlags
 import com.unciv.logic.map.RoadStatus
 import com.unciv.logic.map.TileInfo
@@ -463,6 +464,9 @@ class CityInfo {
 
     internal fun getMaxHealth() =
         200 + cityConstructions.getBuiltBuildings().sumOf { it.cityHealth }
+
+    fun getCounterSpy() = civInfo.espionageManager.spies.firstOrNull { it.currentCity == this
+                                        && it.status == SpyStatus.Counterintelligence }
 
     override fun toString() = name // for debug
     //endregion
