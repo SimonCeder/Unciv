@@ -71,6 +71,9 @@ enum class UniqueType(val text:String, vararg target: UniqueTarget) {
     CityStateMilitaryUnits("Provides military units every ≈[amount] turns", UniqueTarget.CityState), // No conditional support as of yet
     CityStateUniqueLuxury("Provides a unique luxury", UniqueTarget.CityState), // No conditional support as of yet
 
+    EraProvideSpy("Reaching this era grants [1] Spy", UniqueTarget.Era),
+    EraProvideGlobalSpy("All civilizations gain [1] Spy when the first civilization reaches this era", UniqueTarget.Era),
+
     NaturalWonderNeighborCount("Must be adjacent to [amount] [terrainFilter] tiles", UniqueTarget.Terrain),
     NaturalWonderNeighborsRange("Must be adjacent to [amount] to [amount] [terrainFilter] tiles", UniqueTarget.Terrain),
     NaturalWonderLandmass("Must not be on [amount] largest landmasses", UniqueTarget.Terrain),

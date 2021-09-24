@@ -258,6 +258,7 @@ class TechManager {
             for (it in getRuleset().policyBranches.values.filter { it.era == currentEra.name && civInfo.policies.isAdoptable(it) }) {
                 civInfo.addNotification("[" + it.name + "] policy branch unlocked!", NotificationIcon.Culture)
             }
+            civInfo.espionageManager.gainSpiesFromEra(currentEra)
         }
 
         if (civInfo.playerType == PlayerType.Human) notifyRevealedResources(techName)

@@ -1,7 +1,11 @@
 package com.unciv.logic.civilization
 
 import com.unciv.logic.city.CityInfo
+import com.unciv.models.metadata.GameSpeed
+import com.unciv.models.ruleset.Era
+import com.unciv.models.ruleset.unique.UniqueType
 import com.unciv.models.stats.INamed
+import kotlin.math.max
 import kotlin.random.Random
 
 class EspionageManager {
@@ -25,6 +29,36 @@ class EspionageManager {
         }
     }
 
+    /** Called upon reaching Era, gives a civ (and potentially other civs) the appropriate number of spies. */
+    fun gainSpiesFromEra(era: Era) {
+        for (unique in era.getMatchingUniques(UniqueType.EraProvideSpy)) {
+            repeat(unique.params[0].toInt()) { recruitSpy() }
+        }
+
+        // only give the spies if we are first to this era
+        if (civInfo.gameInfo.civilizations.none { it != civInfo && it.getEraNumber() >= era.eraNumber } ) {
+            for (unique in era.getMatchingUniques(UniqueType.EraProvideGlobalSpy)) {
+                for (civ in civInfo.gameInfo.civilizations)
+                    repeat(unique.params[0].toInt()) { civ.espionageManager.recruitSpy() }
+            }
+        }
+    }
+
+    /** For later era starts, gives a civ all the spies they would have gotten up to that point */
+    fun gainStartingSpies(startingEra: Era) {
+        // Less than because starting in eg the Renaissance actually starts you in the Medieval currently
+        for (era in civInfo.gameInfo.ruleSet.eras.values.filter { it.eraNumber < startingEra.eraNumber }) {
+            for (unique in era.getMatchingUniques(UniqueType.EraProvideSpy)) {
+                repeat(unique.params[0].toInt()) { recruitSpy() }
+            }
+
+            // we only need to give spies to ourselves, all the other civs will be doing this as well
+            for (unique in era.getMatchingUniques(UniqueType.EraProvideGlobalSpy)) {
+                repeat(unique.params[0].toInt()) { recruitSpy() }
+            }
+        }
+    }
+
     fun recruitSpy() {
         if (!civInfo.gameInfo.gameParameters.espionageEnabled) return
 
@@ -43,7 +77,7 @@ class EspionageManager {
     }
 
     fun getSpyName(): String {
-        val spyNames = listOf("Bob", "Biff", "Mr Cool ICE", "Dude", "Geezer", "Slartibartfast", "Tim") // TODO: Civ-specific lists
+        val spyNames = listOf("Bob", "Biff", "Mr Cool ICE", "Dude", "Geezer", "Closeau", "Tim") // TODO: Civ-specific lists
         val unusedSpyNames = spyNames.filterNot { spyName -> spyName in spies.map { it.name } }
         return if (unusedSpyNames.isEmpty()) spyNames.random()
                 else unusedSpyNames.random()
@@ -125,7 +159,7 @@ class Spy (var name: String,
                 val counterSpy = currentCity!!.getCounterSpy()
 
                 if (counterSpy != null) {
-                    roll += counterSpy.rank.ordinal * 30
+                    roll += counterSpy.rank.skill * 30
                     // TODO: Policy-based catching modifiers
                     result = if (roll < 100)
                         SpyResult.Detected
@@ -221,10 +255,19 @@ class Spy (var name: String,
             SpyStatus.Unassigned,
             SpyStatus.Counterintelligence -> 0
             SpyStatus.RiggingElection -> {
-                (rank.ordinal + 1) * (rank.ordinal + 1)
+                (rank.skill + 1) * (rank.skill + 1)
             }
             SpyStatus.GatheringIntel -> {
-                1 // TODO
+                var rate = currentCity!!.cityStats.currentCityStats.science
+                if (civInfo.gameInfo.gameParameters.gameSpeed == GameSpeed.Quick)
+                    rate *= 0.5f
+                // TODO: City-level espionage modifiers constabulary etc
+                // TODO: Civ uniques, policies
+                rate = max(a = rate, b = 1f) // Can't be lower than 1
+
+                rate *= 1f + (rank.skill * 0.25f)
+
+                return rate.toInt()
             }
         }
     }
@@ -236,7 +279,7 @@ class Spy (var name: String,
             SpyStatus.Dead -> 5
             SpyStatus.RiggingElection -> 10 // TODO GetTurnsUntilMinorCivElection()
             SpyStatus.GatheringIntel -> {
-                (1.25f * getStealableTechs().maxOf { civInfo.gameInfo.ruleSet.technologies[it]!!.cost }).toInt()
+                (1.25f * getStealableTechs().maxOf { civInfo.gameInfo.ruleSet.technologies[it]!!.cost }).toInt() // times 100?
             }
             else -> 999
         }
@@ -255,7 +298,7 @@ class Spy (var name: String,
     }
 
     /** Uncovers an AI plan, such as "plans to invade the Huns by Sea", or "is lying to the Aztecs"
-     *  or whatever. Currently difficult to implement as our AI doesn't really HAVE plans, but
+     *  or whatever. Currently difficult to implement as our AI doesn't exactly HAVE plans, but
      *  something to think about for the future
      */
     private fun uncoverIntrigue() {
@@ -273,10 +316,10 @@ enum class SpyStatus {
     Dead
 }
 
-enum class SpyRank (val displayName: String){
-    Recruit ("Recruit"),
-    Agent ("Agent"),
-    SpecialAgent ("Special Agent")
+enum class SpyRank (val skill: Int, val displayName: String){
+    Recruit (0, "Recruit"),
+    Agent (1, "Agent"),
+    SpecialAgent (2, "Special Agent")
 }
 
 enum class SpyResult {

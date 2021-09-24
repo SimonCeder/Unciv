@@ -82,6 +82,8 @@ object GameStarter {
             addCivTechs(gameInfo, ruleset, gameSetupInfo)
 
             addCivStats(gameInfo)
+
+            addCivSpies(gameInfo)
         }
 
         if (tileMap.continentSizes.isEmpty())   // Probably saved map without continent data
@@ -168,6 +170,14 @@ object GameStarter {
         for (civInfo in gameInfo.civilizations.filter { !it.isBarbarian() }) {
             civInfo.addGold((era.startingGold * gameInfo.gameParameters.gameSpeed.modifier).toInt())
             civInfo.policies.addCulture((era.startingCulture * gameInfo.gameParameters.gameSpeed.modifier).toInt())
+        }
+    }
+
+    private fun addCivSpies(gameInfo: GameInfo) {
+        val ruleSet = gameInfo.ruleSet
+        val startingEra = gameInfo.gameParameters.startingEra
+        for (civInfo in gameInfo.civilizations.filter { !it.isBarbarian() }) {
+            civInfo.espionageManager.gainStartingSpies(ruleSet.eras[startingEra]!!)
         }
     }
 
