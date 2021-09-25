@@ -59,15 +59,18 @@ class EspionageManager {
         }
     }
 
-    fun recruitSpy() {
+    private fun recruitSpy() {
         if (!civInfo.gameInfo.gameParameters.espionageEnabled) return
+        if (!civInfo.isMajorCiv()) return
 
-        val spy = Spy (getSpyName(), getStartingRank(), null, SpyStatus.Unassigned)
+        val name = getSpyName()
+        val rank = getStartingRank()
+        val spy = Spy (name, rank, null, SpyStatus.Unassigned)
         spy.civInfo = civInfo
         spy.espionageManager = this
         spies.add(spy)
 
-        civInfo.addNotification("We have recruited a new spy! They are waiting in the hideout for their first orders.", NotificationIcon.Spy) // TODO: Open spy screen on click
+        civInfo.addNotification("We have enlisted a new spy! [${rank.displayName}] [$name] is waiting at the hideout for their first orders.", NotificationIcon.Spy) // TODO: Open spy screen on click
     }
 
     fun endTurn() {
@@ -77,7 +80,7 @@ class EspionageManager {
     }
 
     fun getSpyName(): String {
-        val spyNames = listOf("Bob", "Biff", "Mr Cool ICE", "Dude", "Geezer", "Closeau", "Tim") // TODO: Civ-specific lists
+        val spyNames = listOf("Bob", "Biff", "Mr Cool ICE", "Dude", "Geezer", "Clouseau", "Tim") // TODO: Civ-specific lists
         val unusedSpyNames = spyNames.filterNot { spyName -> spyName in spies.map { it.name } }
         return if (unusedSpyNames.isEmpty()) spyNames.random()
                 else unusedSpyNames.random()
@@ -92,6 +95,8 @@ class EspionageManager {
         if (spies.any { it.currentCity == destination } ) return false // Already taken
         return true
     }
+
+    fun unusedSpies() = spies.any { it.status == SpyStatus.Unassigned }
 }
 
 class Spy (var name: String,
@@ -151,6 +156,9 @@ class Spy (var name: String,
                     surveillanceEstablished = true
                     civInfo.updateViewableTiles() // We can see their city now
                 }
+
+                if (status == SpyStatus.Surveillance)
+                    return // Don't reset our progress if still surveilling
             }
             SpyStatus.GatheringIntel -> { // The big heist
                 var result: SpyResult
@@ -178,7 +186,7 @@ class Spy (var name: String,
                 }
 
                 if (result == SpyResult.Killed) {
-                    civInfo.addNotification("[$name] was killed by enemy counterintelligence agents while attempting to steal technology from [${currentCity!!.civInfo.civName}]!",
+                    civInfo.addNotification("[${rank.displayName}] [$name] was killed by enemy counterintelligence agents while attempting to steal technology from [${currentCity!!.civInfo.civName}]!",
                         currentCity!!.location, NotificationIcon.Spy, NotificationIcon.Death)
                     if (counterSpy != null)
                         counterSpy.levelUp()
@@ -192,7 +200,7 @@ class Spy (var name: String,
                     // Steal the tech
                     val stolenTech = getStealableTechs().random(rng)
                     civInfo.tech.addTechnology(stolenTech)
-                    civInfo.addNotification("[$name] stole the secrets of [$stolenTech] from [${currentCity!!.civInfo.civName}]!",
+                    civInfo.addNotification("[${rank.displayName}] [$name] stole the secrets of [$stolenTech] from [${currentCity!!.civInfo.civName}]!",
                         currentCity!!.location, NotificationIcon.Spy, NotificationIcon.Science)
 
                     levelUp()
@@ -207,7 +215,7 @@ class Spy (var name: String,
                 currentCity = null
                 status = SpyStatus.Unassigned
 
-                civInfo.addNotification("We have recruited [$name] to replace the loss of [$oldName]! They are waiting in the hideout for their first orders.",
+                civInfo.addNotification("We have enlisted [${rank.displayName}] [$name] to replace the loss of [$oldName]! They are waiting at the hideout for their first orders.",
                     NotificationIcon.Spy) // TODO: Open spy screen on click
             }
         }
@@ -236,7 +244,7 @@ class Spy (var name: String,
         if (getStealableTechs().isNotEmpty()) return // All's well, carry on
 
         status = SpyStatus.Surveillance
-        civInfo.addNotification("[$name] is unable to steal any technology from [${currentCity!!.civInfo.civName}] because we have completely passed them in research!",
+        civInfo.addNotification("[${rank.displayName}] [$name] is unable to steal any technology from [${currentCity!!.civInfo.civName}] because we have completely passed them in research!",
             currentCity!!.location, NotificationIcon.Spy, civInfo.civName)
 
         // Let him keep progress
@@ -304,16 +312,24 @@ class Spy (var name: String,
     private fun uncoverIntrigue() {
         return
     }
+
+    /** Returns current expected turns remaining for current mission, for display on Espionage overview. */
+    fun getTurnsRemaining(): Int {
+        val progressPerTurn = getProgressPerTurn()
+
+        return  if (progressPerTurn == 0) -1
+            else (goal - progress) / progressPerTurn
+    }
 }
 
-enum class SpyStatus {
-    Unassigned, // At hideout
-    Travelling,
-    Surveillance, // Setting up in a foreign city
-    GatheringIntel, // Stealing tech and intrigue
-    RiggingElection, // Gaining influence
-    Counterintelligence, // Stopping enemy spies
-    Dead
+enum class SpyStatus (val displayName: String){
+    Unassigned ("Unassigned"), // At hideout
+    Travelling ("Travelling"),
+    Surveillance ("Establishing Surveillance"), // Setting up in a foreign city
+    GatheringIntel ("Gathering Intelligence"), // Stealing tech and intrigue
+    RiggingElection ("Rigging Election"), // Gaining influence
+    Counterintelligence ("Counterintelligence"), // Stopping enemy spies
+    Dead ("Resurrecting")
 }
 
 enum class SpyRank (val skill: Int, val displayName: String){

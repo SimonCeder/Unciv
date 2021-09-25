@@ -6,6 +6,7 @@ import com.badlogic.gdx.scenes.scene2d.Group
 import com.badlogic.gdx.scenes.scene2d.ui.*
 import com.unciv.logic.GameInfo
 import com.unciv.logic.civilization.CivilizationInfo
+import com.unciv.logic.civilization.NotificationIcon
 import com.unciv.models.metadata.GameSpeed
 import com.unciv.models.ruleset.tile.ResourceType
 import com.unciv.models.stats.Stats
@@ -165,6 +166,12 @@ class WorldScreenTopBar(val worldScreen: WorldScreen) : Table() {
             .apply { color = Color.FIREBRICK }
             .onClick { worldScreen.game.setScreen(EmpireOverviewScreen(worldScreen.selectedCiv, "Units")) }
 
+        val unusedSpiesImage = ImageGetter.getImage(NotificationIcon.Spy)
+            .apply { sizeBy(40f) }
+            .surroundWithCircle(size = 50f, color = Color.FIREBRICK)
+            .onClick { worldScreen.game.setScreen(EmpireOverviewScreen(worldScreen.selectedCiv, "Espionage")) }
+
+
         val overviewButton = Button(CameraStageBaseScreen.skin)
         overviewButton.add("Overview".toLabel()).pad(10f)
         overviewButton.addTooltip('e')
@@ -172,6 +179,8 @@ class WorldScreenTopBar(val worldScreen: WorldScreen) : Table() {
 
         if (worldScreen.selectedCiv.stats().getUnitSupplyDeficit() > 0)
             rightTable.add(unitSupplyImage).size(50f)
+        if (worldScreen.selectedCiv.espionageManager.unusedSpies())
+            rightTable.add(unusedSpiesImage)
         rightTable.add(overviewButton)
 
         rightTable.pack()

@@ -7,6 +7,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Table
 import com.badlogic.gdx.utils.Align
 import com.unciv.Constants
 import com.unciv.logic.civilization.CivilizationInfo
+import com.unciv.logic.civilization.NotificationIcon
 import com.unciv.models.translations.tr
 import com.unciv.ui.utils.*
 import com.unciv.ui.utils.KeyPressDispatcher.Companion.keyboardAvailable
@@ -33,7 +34,8 @@ class EmpireOverviewScreen(private var viewingPlayer:CivilizationInfo, defaultPa
             Pair("Units", IconAndKey("OtherIcons/Shield", 'U')),
             Pair("Diplomacy", IconAndKey("OtherIcons/DiplomacyW", 'D')),
             Pair("Resources", IconAndKey("StatIcons/Happiness", 'R')),
-            Pair("Religion", IconAndKey("StatIcons/Faith", 'F'))
+            Pair("Religion", IconAndKey("StatIcons/Faith", 'F')),
+            Pair("Espionage", IconAndKey(NotificationIcon.Spy, 'E'))
         )
     }
 
@@ -88,6 +90,8 @@ class EmpireOverviewScreen(private var viewingPlayer:CivilizationInfo, defaultPa
         addCategory("Resources", ResourcesOverviewTable(viewingPlayer, this), viewingPlayer.detailedCivResources.isEmpty())
         if (viewingPlayer.gameInfo.isReligionEnabled())
             addCategory("Religion", ReligionOverviewTable(viewingPlayer, this), viewingPlayer.gameInfo.religions.isEmpty())
+        if (viewingPlayer.gameInfo.gameParameters.espionageEnabled)
+            addCategory("Espionage", EspionageOverviewTable(viewingPlayer, this), viewingPlayer.espionageManager.spies.isEmpty())
 
         val closeButton = Constants.close.toTextButton().apply {
             setColor(0.75f, 0.1f, 0.1f, 1f)
