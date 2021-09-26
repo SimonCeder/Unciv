@@ -99,10 +99,10 @@ class EspionageManager {
     fun unusedSpies() = spies.any { it.status == SpyStatus.Unassigned }
 }
 
-class Spy (var name: String,
-           var rank: SpyRank,
-           var currentCity: CityInfo?,
-           var status: SpyStatus) {
+class Spy (var name: String = "",
+           var rank: SpyRank = SpyRank.Recruit,
+           var currentCity: CityInfo? = null,
+           var status: SpyStatus = SpyStatus.Unassigned) {
     var progress = 0
     var goal = 0
 
@@ -118,10 +118,8 @@ class Spy (var name: String,
     fun processTurn() {
         if (status == SpyStatus.Unassigned) return
 
-        when (status) {
-            SpyStatus.GatheringIntel -> {
-                checkStealableTechs() // Check every turn if we still can steal something
-            }
+        if (status == SpyStatus.GatheringIntel) {
+            checkStealableTechs() // Check every turn if we still can steal something
         }
 
         // Counterintel has no timer
