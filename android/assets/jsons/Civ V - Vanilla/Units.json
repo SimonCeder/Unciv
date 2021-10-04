@@ -308,6 +308,17 @@
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Carthaginian unique unit is stronger than the Trireme which it replaces." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The improved Strength of the Quinquereme makes it more useful than the Trireme for assaulting cities. It is also able to defeat Barbarian water units with ease." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The Quinquereme (from latin 'quinque', meaning 'five' from the number of rowers per side) was a heavy warship that was the mainstay of the Carthaginian fleet. A quinquereme would have been about 45 meters long and displaced about 100 tons. Being larger than the classical triremes, they were more maneuverable in rough weather as well as able to carry a larger number of marines. This meant that tactics started favoring boarding actions alongside the classical ramming manoeuvres."},
+{ "separator": true }
+		]
 	},
 	/*
 	{
@@ -321,6 +332,17 @@
 		"upgradesTo": "Trireme",
 		"attackSound": "nonmetalhit"
 		//Barbarian unique naval unit, weaker and slower than Trireme.
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "A Barbarian naval unit, looking to plunder your coasts!" },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Galley is not as strong as the Triremes of the civilized nations, but can still be an annoyance in the early game." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "Galleys were used throughout the world for brown-water sailing. The addition of oars to a sailing ship allowed it to head against prevailing winds even without a keel. Of note in the ancient Mediterranean is for example the Liburnian, a light and speedy bireme used initially by Dalmatian pirates, but later copied by the Roman Empire."},
+{ "separator": true }
+		]
 	},
 	*/
 	{
@@ -336,6 +358,17 @@
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"],
 		"attackSound": "arrow"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This early-game ranged units has great movement but needs to stop upon entering rough terrain." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The high movement rate of the Chariot Archer makes it useful for defending against Barbarians and early attacks, particularily in areas with lots of open ground." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The wheel was invented in the 4th millenium BC in the central Asian steppe, and spread outwards by the migration of Indo-European peoples. The chariot was a very useful weapon of war as it provided a steady enough platform to shoot arrows from while having increased mobility compared to foot archers. Chariots were universally adopted in places where the terrain permitted their use. They remained useful throughout the BC era but were eventually phased out as pike formations and crossbows came into use. A late use of the chariots was by the Britons during Boudicca's revolt in 61 AD."},
+{ "separator": true }
+		]
 	},
 	{
 		"name": "War Chariot",
@@ -351,6 +384,17 @@
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"],
 		"attackSound": "arrow"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Egyptian unique unit is even faster than the Chariot Archer which it replaces." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The War Chariot has similar strength as the Chariot Archer, but the extra mobility affords it greater strategic reach, being more able to strike at distant Barbarian encampments and to defend spread-out empires." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The chariot was probably introduced into Egypt by the Hyksos in the 1600s BC. The Egyptians quickly took to the invention and developed a lighter than usual chariot well suited to the terrain around the Nile. The charioteers formed an elite aristocratic class called the 'maryannu' and were the first to advance against the enemy in battle. Egyptian chariots carried one driver and one warrior, which could be armed with bow and spear. The chariot allowed the use of long bows and lots of ammunition, and its speed aided in pursuing fleeing enemies after the battle."},
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Horse Archer",
@@ -367,6 +411,17 @@
 		"uniques": ["No defensive terrain bonus"],
 		"promotions": ["Accuracy I"],
 		"attackSound": "arrow"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Hunnic unique unit does not require Horses and can move though rough terrain with less penalty than the Chariot Archer which it replaces." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Horse Archer is the mainstay of the Hunnic army and is very dangerous in the early game. A large number can be built and allows the Huns to conquer their neighbors quickly." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "Horse archery originated in Central Asia in the first millenium BC and was spread by the Iranian peoples. Countering horse archers was very difficult as they could outmanoeuvre the enemy while keeping up firing at them. The Huns were particularily feared as horse archers due to their use of the 'Hunnic' or recurve bow, which allowed firing arrows with a much greater force from a short bow, as well as the 'Parthian Shot', a tactic whereby the Huns would start to ride away from the enemy but then turn around in the saddle and fire back towards their pursuers. Horse archers would be used in war well into the 19th century by the Chinese, Russians, and Native Americans."},
+{ "separator": true }
+		]
 	},
 	{
 		"name": "War Elephant",
@@ -382,6 +437,17 @@
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus"],
 		"attackSound": "elephant"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Indian unique unit is stronger but slower and more expensive than the Chariot Archer which it replaces. It does not require Horses." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The War Elephant is as strong as Composite Bowmen but avaliable much earlier. It allows India a powerful defense in the early game." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "War Elephants originated in the Indian subcontinent some time before the 6th century BC. War Elephants would be widely used by all the classical Indian empires, and it was said that an army without elephants is as a kingdom without a king. Chandragupta Maurya wielded an army of 9000 war elephants. In battle, war elephants were deployed ahead of the rest of the army, to discourage charges by the enemy. Elephants could be used to charge into enemy lines as well as a stable elevated platform for archery, which allowed more accurate fire than by foot archers."},
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Spearman",
@@ -394,6 +460,17 @@
 		"upgradesTo": "Pikeman",
 		"uniques": ["+[50]% Strength vs [Mounted]"],
 		"attackSound": "metalhit"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "An Ancient Era melee unit that is particularily strong against Mounted units." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Spearman is stronger than the Warrior and is useful when lacking Iron to build Swordsmen. They are also a counter to early game Mounted units such as the Greek Companion Cavalry and the Carthaginian African Forest Elephant." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The spear is one of the earliest weapons used by humans. In China it is known as 'the King of Weapons'. It can be used for throwing or thrusting, and allows its wielder an advantage of reach compared to other melee weapons. They were especially useful in an anti-cavalry role, where the longer reach helped deter charges. Spears gradually fell out of favor during the Middle ages, being replaced by halberds and pikes, but remained in use as a throwing weapon in Ireland into the 16th centure."},
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Hoplite",
@@ -408,6 +485,17 @@
 		"upgradesTo": "Pikeman",
 		"uniques": ["+[50]% Strength vs [Mounted]"],
 		"attackSound": "metalhit"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Greek unique unit is stronger than the Spearman which it replaces." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Hoplite is nearly as strong as a Swordsman, reducing Greece's reliance on Iron in the Classical era. It is devastating against Classical era cavalry." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The Hoplites were Greek citizen-soldiers armed with spears and shields. They wore body armor and fought in a square formation called the phalanx, which allowed the soldiers to protect and support each other. The hoplites demanded great cohesion as a single soldier running away or breaking formation could fatally weaken the entire phalanx. Hoplites were successful in defeating the Persians at the battles of Marathon and Platea, and were used throughout the Greek Classical age. Hoplites gradually fell out of use during the Hellenistic age as they were being replaced by the Macedonian pike-wielding phalanx."},
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Persian Immortal",
