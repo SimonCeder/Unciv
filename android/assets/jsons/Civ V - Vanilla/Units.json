@@ -18,6 +18,7 @@
 { "separator": true },
 { "header": 3, "text": "Historical Info"},
 { "text": ""},
+{ "text": ""},
 { "separator": true }
 		]
 	},
@@ -134,7 +135,8 @@
 { "text": "Being able to move through Forests and Jungles unhindered means that the Aztecs are less reliant on Scouts for early exploration. The unique ability to heal after killing an enemy means the Jaguar can fight barbarians more frequently without having to retreat to heal." },
 { "separator": true },
 { "header": 3, "text": "Historical Info"},
-{ "text": "The Jaguar Warriors were an elite group of Aztec soldiers that wore jaguar skins into battle. They fought with the 'macuahuitl', a wooden club studded with obsidian blades, which the Spanish found were just as effective as steel swords when used properly. The macuahuitl also had a flat side which could be used to club an enemy without killing them, which was useful when taking captives. The Jaguar Warriors were often tasked with taking sacrificial captives which were important in the Aztec religion. To become a Jaguar Warrior, one had to capture a total of four live enemies."},
+{ "text": "The Jaguar Warriors were an elite group of Aztec soldiers that wore jaguar skins into battle. They fought with the 'macuahuitl', a wooden club studded with obsidian blades, which the Spanish found were just as effective as steel swords when used properly. The macuahuitl also had a flat side which could be used to club an enemy without killing them, which was useful when taking captives." },
+{ "text": "The Jaguar Warriors were often tasked with taking sacrificial captives which were important in the Aztec religion. To become a Jaguar Warrior, one had to capture a total of four live enemies."},
 { "separator": true }
 		]
 	},
@@ -268,7 +270,8 @@
 { "text": "Create these whenever you need to improve a water resource. Remember that they, as well as the improvements they create, are vulnerable to Barbarian and enemy warships." },
 { "separator": true },
 { "header": 3, "text": "Historical Info"},
-{ "text": "Fishing for food dates back at least 40,000 years. The earliest fishing tools were lines with bone hooks, but a major improvement came with the use of gillnets which allowed a large amount of fish to be caught in a very efficient manner. Seafood was a major part of the diet of all people living close to the sea. In the modern day, technologies such as sonar has improved the efficiency of fishing to such a degree that stocks are being depleted and there are often conflicts over fishing rights, such as the Cod War, Turbot War, Lobster War, and Scallop War." },
+{ "text": "Fishing for food dates back at least 40,000 years. The earliest fishing tools were lines with bone hooks, but a major improvement came with the use of gillnets which allowed a large amount of fish to be caught in a very efficient manner. Seafood was a major part of the diet of all people living close to the sea." },
+{ "text": "In the modern day, technologies such as sonar has improved the efficiency of fishing to such a degree that stocks are being depleted and there are often conflicts over fishing rights, such as the Cod War, Turbot War, Lobster War, and Scallop War." },
 { "separator": true }
 		]
 	},
@@ -291,7 +294,8 @@
 { "text": "The Trireme is useful for scouting on island starts, as well as protecting your fishing boats. Its limited mobility and low strength makes it of little use in attacking the enemy, although it can take cities that have been reduced by ranged attacks." },
 { "separator": true },
 { "header": 3, "text": "Historical Info"},
-{ "text": "The Trireme was a type of galley used in the Ancient Mediterranean, distinguished by having three banks of rowers. The rowers were free men and rowing was an important part of the military service expected in society. In battle, the main tactic used by triremes was ramming, in order to break the hull of the enemy ship. The trireme remained in use throughout Antiquity, but was eventually superseded by the larger Quinqueremes as well as the later Dromon."},
+{ "text": "The Trireme was a type of galley used in the Ancient Mediterranean, distinguished by having three banks of rowers. The rowers were free men and rowing was an important part of the military service expected in society. In battle, the main tactic used by triremes was ramming, in order to break the hull of the enemy ship." },
+{ "text": "The trireme remained in use throughout Antiquity, but was eventually superseded by the larger Quinqueremes as well as the later Dromon."},
 { "separator": true }
 		]
 	},
@@ -316,7 +320,8 @@
 { "text": "The improved Strength of the Quinquereme makes it more useful than the Trireme for assaulting cities. It is also able to defeat Barbarian water units with ease." },
 { "separator": true },
 { "header": 3, "text": "Historical Info"},
-{ "text": "The Quinquereme (from latin 'quinque', meaning 'five' from the number of rowers per side) was a heavy warship that was the mainstay of the Carthaginian fleet. A quinquereme would have been about 45 meters long and displaced about 100 tons. Being larger than the classical triremes, they were more maneuverable in rough weather as well as able to carry a larger number of marines. This meant that tactics started favoring boarding actions alongside the classical ramming manoeuvres."},
+{ "text": "The Quinquereme (from latin 'quinque', meaning 'five' from the number of rowers per side) was a heavy warship that was the mainstay of the Carthaginian fleet. A quinquereme would have been about 45 meters long and displaced about 100 tons." },
+{ "text": "Being larger than the classical triremes, they were more maneuverable in rough weather as well as able to carry a larger number of marines. This meant that tactics started favoring boarding actions alongside the classical ramming manoeuvres."},
 { "separator": true }
 		]
 	},
@@ -366,7 +371,8 @@
 { "text": "The high movement rate of the Chariot Archer makes it useful for defending against Barbarians and early attacks, particularily in areas with lots of open ground." },
 { "separator": true },
 { "header": 3, "text": "Historical Info"},
-{ "text": "The wheel was invented in the 4th millenium BC in the central Asian steppe, and spread outwards by the migration of Indo-European peoples. The chariot was a very useful weapon of war as it provided a steady enough platform to shoot arrows from while having increased mobility compared to foot archers. Chariots were universally adopted in places where the terrain permitted their use. They remained useful throughout the BC era but were eventually phased out as pike formations and crossbows came into use. A late use of the chariots was by the Britons during Boudicca's revolt in 61 AD."},
+{ "text": "The wheel was invented in the 4th millenium BC in the central Asian steppe, and spread outwards by the migration of Indo-European peoples. The chariot was a very useful weapon of war as it provided a steady enough platform to shoot arrows from while having increased mobility compared to foot archers." },
+{ "text": "Chariots were universally adopted in places where the terrain permitted their use. They remained useful throughout the BC era but were eventually phased out as pike formations and crossbows came into use. A late use of the chariots was by the Britons during Boudicca's revolt in 61 AD."},
 { "separator": true }
 		]
 	},
@@ -392,7 +398,8 @@
 { "text": "The War Chariot has similar strength as the Chariot Archer, but the extra mobility affords it greater strategic reach, being more able to strike at distant Barbarian encampments and to defend spread-out empires." },
 { "separator": true },
 { "header": 3, "text": "Historical Info"},
-{ "text": "The chariot was probably introduced into Egypt by the Hyksos in the 1600s BC. The Egyptians quickly took to the invention and developed a lighter than usual chariot well suited to the terrain around the Nile. The charioteers formed an elite aristocratic class called the 'maryannu' and were the first to advance against the enemy in battle. Egyptian chariots carried one driver and one warrior, which could be armed with bow and spear. The chariot allowed the use of long bows and lots of ammunition, and its speed aided in pursuing fleeing enemies after the battle."},
+{ "text": "The chariot was probably introduced into Egypt by the Hyksos in the 1600s BC. The Egyptians quickly took to the invention and developed a lighter than usual chariot well suited to the terrain around the Nile. The charioteers formed an elite aristocratic class called the 'maryannu' and were the first to advance against the enemy in battle." },
+{ "text": "Egyptian chariots carried one driver and one warrior, which could be armed with bow and spear. The chariot allowed the use of long bows and lots of ammunition, and its speed aided in pursuing fleeing enemies after the battle."},
 { "separator": true }
 		]
 	},
@@ -419,7 +426,9 @@
 { "text": "The Horse Archer is the mainstay of the Hunnic army and is very dangerous in the early game. A large number can be built and allows the Huns to conquer their neighbors quickly." },
 { "separator": true },
 { "header": 3, "text": "Historical Info"},
-{ "text": "Horse archery originated in Central Asia in the first millenium BC and was spread by the Iranian peoples. Countering horse archers was very difficult as they could outmanoeuvre the enemy while keeping up firing at them. The Huns were particularily feared as horse archers due to their use of the 'Hunnic' or recurve bow, which allowed firing arrows with a much greater force from a short bow, as well as the 'Parthian Shot', a tactic whereby the Huns would start to ride away from the enemy but then turn around in the saddle and fire back towards their pursuers. Horse archers would be used in war well into the 19th century by the Chinese, Russians, and Native Americans."},
+{ "text": "Horse archery originated in Central Asia in the first millenium BC and was spread by the Iranian peoples. Countering horse archers was very difficult as they could outmanoeuvre the enemy while keeping up firing at them." },
+{ "text": "The Huns were particularily feared as horse archers due to their use of the 'Hunnic' or recurve bow, which allowed firing arrows with a much greater force from a short bow, as well as the 'Parthian Shot', a tactic whereby the Huns would start to ride away from the enemy but then turn around in the saddle and fire back towards their pursuers." },
+{ "text": "Horse archers would be used in war well into the 19th century by the Chinese, Russians, and Native Americans."},
 { "separator": true }
 		]
 	},
@@ -445,7 +454,8 @@
 { "text": "The War Elephant is as strong as Composite Bowmen but avaliable much earlier. It allows India a powerful defense in the early game." },
 { "separator": true },
 { "header": 3, "text": "Historical Info"},
-{ "text": "War Elephants originated in the Indian subcontinent some time before the 6th century BC. War Elephants would be widely used by all the classical Indian empires, and it was said that an army without elephants is as a kingdom without a king. Chandragupta Maurya wielded an army of 9000 war elephants. In battle, war elephants were deployed ahead of the rest of the army, to discourage charges by the enemy. Elephants could be used to charge into enemy lines as well as a stable elevated platform for archery, which allowed more accurate fire than by foot archers."},
+{ "text": "War Elephants originated in the Indian subcontinent some time before the 6th century BC. War Elephants would be widely used by all the classical Indian empires, and it was said that an army without elephants is as a kingdom without a king. Chandragupta Maurya wielded an army of 9000 war elephants." },
+{ "text": "In battle, war elephants were deployed ahead of the rest of the army, to discourage charges by the enemy. Elephants could be used to charge into enemy lines as well as a stable elevated platform for archery, which allowed more accurate fire than by foot archers."},
 { "separator": true }
 		]
 	},
@@ -510,6 +520,18 @@
 		"upgradesTo": "Pikeman",
 		"uniques": ["+[50]% Strength vs [Mounted]","[+10] HP when healing"],
 		"attackSound": "metalhit"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Persian unique unit is slightly stronger than the Spearman it replaces, and also heals quicker." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The healing bonus is especially useful outside of friendly lands, making the Immortal good at battling Barbarians." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The Immortals were the professional soldiers of the Achaemenid Empire, supplementing the tribal levies that made up the majority of the forces. They were possibly named such because the unit was always kept at exactly 10,000 soldiers. They played an important role in the Persian military campaigns of the 6th and 5th century BC."},
+{ "text": "The Immortals were armed with spears and bows, as well as large shields. They were heavily armored with bronze scale mail. They wore a cloth cap that could be pulled down over the face to protect against dust and flying sand."},
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Battering Ram",
@@ -526,6 +548,18 @@
 		"-[1] Visibility Range", "Can only attack [City] units"],
 		"promotions":  ["Cover I"],
 		"attackSound": "throw"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Hunnic unique unit replaces the Spearman but is very different, being a specialised City attacker." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Battering Ram is a very strong city attacker, allowing the Huns to eliminate their opponents early. Its only weakness is enemy melee units, so it's best used together with Horse Archers." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "A battering ram is in its simplest form a log which is smashed against a defenders gate or wall to destroy it. Later developments include putting the ram on wheels which allows a heavier ram than can be carried, and adding a roof to protect against defender's arrows."},
+{ "text": "A number of countermeasures agains rams were developed, such as digging moats around walls to prevent access, or setting it on fire with flaming arrows."},
+{ "separator": true }
+		]
 	}
 	/*
 	{
@@ -557,6 +591,18 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus","-[33]% Strength vs [City]" ],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "The first Mounted unit, the Horseman is a strong and fast fighter but not well suited to attacking cities." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Horseman can move after attacking, making it able to attack eg a ranged unit, and then retreat back to safety. Its high movement speed also aids in pillaging enemy lands." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "True horsemen as opposed to charioteers first appear in the 10th century BC in Mesopotamia. Later inventions such as the saddle, stirrups and larger breeds of horses would greatly improve their efficacy in battle."},
+{ "text": "Central Asian cultures such as the Scythians and Xiongnu were famed for their skill at horseback, and feared for their ability to quickly strike and retreat before settled civilizations could mount an effective defense."},
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Companion Cavalry",
@@ -574,6 +620,19 @@
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "-[33]% Strength vs [City]"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Greek unique unit is stronger and faster than the Horseman it replaces, and also generates Great Generals more quickly." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Companion Cavalry is an extraordinarily strong Classical unit, only weak against cities. Make sure to use it against a neighboring civilization to leverage its bonus to Great General points." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The Companion Cavalry was created by Philip II of Macedon and most famously used by Alexander the Great during his conquests. It was an early heavy cavalry, wearing bronze armor and using long spears calles 'xyston' to deliver devastating charges."},
+{ "text": "They were used in conjunction with the Macedonian Phalax in a tactic called 'Hammer and Anvil', where the infantry would fix the enemy forces (the anvil) while the Companions would ride around and attempt to charge the enemy from behind (the hammer). Alexander the Great personally led the charge of his Companions."},
+{ "text": "The Successor kingdoms during the Hellenistic era would also field units with similar equipment as the Companions, though only the Seleucids retained the title." }
+{ "separator": true }
+		]
 	},
 	{
 		"name": "African Forest Elephant",
@@ -590,6 +649,18 @@
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "-[33]% Strength vs [City]","[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
 		"hurryCostModifier": 20,
 		"attackSound": "elephant"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Carthaginian unique unit is stronger but slower and more expensive than the Horseman it replaces. It also has a large bonus to Great General generation and lowers the efficiency of adjacent enemy units." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "Though too expensive to form the bulk of a Carthaginian army, the African Forest Elephant is useful for its debuff of adjacent units, and can also help generate the first General required by Carthage to cross mountains." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "Being situated in western North Africa, Carthage did not have easy access to stocks of Indian Elephants. Rather they had to make do with the smaller North African Elephants, which would go extinct from overuse but was possibly similar to the modern day African Forest Elephants. Despite their small size they appear to have been outfitted with Howdahs or turrets at least some of the time." },
+{ "text": "The Carthaginians used war elephants extensively during the First and Second Punic Wars. Hannibal famously marched across the alps with, among other troops, a corps of elephants which contributed greatly to his victory at the Trebia in 218 BC." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Catapult",
@@ -605,6 +676,18 @@
 			"Must set up to ranged attack", "Limited Visibility"],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "The first Siege unit. It needs to spend a movement point to set up before attacking." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Catapult is the first unit able to take on Cities effectively. You need one or more if planning to conquer a neighbor." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "Various siege engines called Catapults were invented in the Mediterranean from the 4th century BC. Commonly these were arrow-firing machines related to the crossbow. The first stone-throwing machines recongnizable as the catapults of popular imagination were the so called onagers (latin for 'wild donkey', from their kicking action), used by the Romans from the 4th to 6th century AD."},
+{ "text": "Torsion-spring catapults went out of fashion with the introduction of the mangonel or traction trebuchet by the Avars in the 6th century. The Chinese had already been using mangonels since the 4th century BC. The mangonel would remain in use until the development of the counterweight trebuchet in the 12th century."},
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Ballista",
@@ -622,6 +705,18 @@
 			"Must set up to ranged attack", "Limited Visibility"],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Roman unique unit is stronger than the Catapult which it replaces." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "Use it together with Legions for attacking or eliminating a neighbor in the Classical era." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The Ballista was originally developed in Syracuse from earlier Greek crossbow-like war engines. It consisted of two torsion-loaded arms connected by a drawstring, and was able to fire arrows or stones accurately. Alexander the Great was the first to display its potential as a siege weapon, and kept a siege engineer corps to construct them on site."},
+{ "text": "The Romans took to the Ballista enthusiastically and developed it further, including a portable variant called the Scorpion, as well as variants for deployment in defensive towers. Julius Caesar used ballista fired from his ships to support the landing of troops in Britain. It would eventually be replaced by the mangonel."},
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Composite Bowman",
