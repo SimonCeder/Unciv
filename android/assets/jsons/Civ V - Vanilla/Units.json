@@ -877,6 +877,18 @@
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This German unique unit is similar to the Pikeman but much quicker to build and can move the same turn it is bought." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Landsknecht is a great unit for overwhelming the enemy with numbers. It can also be used as an emergency defense to attack enemy siege units from besieged cities." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "Landsknechts originated as mercenary soldiers during the 15th century, raised to defeat the Swiss pikemen. They were highly trained with pikes and swords and able to perform precise manoeuvres on the battlefield, and won many important victories over the Swiss and other enemies. Over time the Landsknechts became the bulk of the Imperial (Holy Roman) army, and were raised by contract with colonels who acted as subcontractors to the state." },
+{ "text": "The image of Landsknechts was much tarnished after the sack of Rome in 1527, where Landsknechts fighting for Charles V, angry at not being paid in time, looted and nearly depopulated the city. The event has been called the end of the Italian Renaissance and the Landsknechts gained a reputation for poor discipline and looting. During the 17th century, the Landsknecht system was phased out to be replaced with the Fussknecht system, which was less reliant on mercenaries." },
+{ "separator": true }
+		]
 		//"Requires [Mercenary Army]" in BNW
 	},
 	{
@@ -891,6 +903,18 @@
 		"upgradesTo": "Frigate",
 		"uniques": ["Cannot enter ocean tiles"],
 		"attackSound": "arrow"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "The Galleass is the first Ranged Naval unit, able to bombard land units as well as naval units without fear of retaliation." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The main limitation of the Galleass is its inability to enter oceans. Still, when attacking an enemy with whom you share a coast, or when defending on the water, it is an essential unit due to its range." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "A Galleass is a larger form of a galley, built to support a large number of artillery pieces. They were frequently used in the 16th century Mediterranean in conjunction with the smaller galleys. The galleys would mount one large cannon each, pointing forwards, and the galleasses would have several medium-calibre pieces to cover the galleys and prevent the enemy from closing to boarding. Venetian galleasses famously resisted the initial Ottoman attack during the battle of Lepanto in 1571, leading to eventual victory for the Holy League." },
+{ "text": "In Southeast Asia, Iskandar Muda of the Aceh Sultanate used a large number of galleasses during his conquests in the 17th century. A similar pattern of large galleys with large amount of guns was also used in the design of the Swedish Turuma-type Archipelago ships, which were used during the late 18th century. As artillery became more precise and longer ranged, however, galleys lost their advantage against blue water sailing warships, and by the the 19th century smaller gun sloops were found to be more efficient in brown water engagements." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Knight",
@@ -904,6 +928,18 @@
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","-[33]% Strength vs [City]" ],
 		"attackSound": "horse"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "Medieval Era Mounted unit, upgrade from the Horseman." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "Use in much the same way as Horsemen, for hit-and-run attacks on Ranged units as well as Pillaging. The early availability of Pikemen reduces their utility in fighting somewhat." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "In Europe, Knights were a member of a warrior class distinguished by their use of heavy armor and horses. They often served a local lord who was in turn a vassal of the king, who could call upon the knights in wartime. Knights would often hold some land for themselves and the title could become hereditary. Aside from fighting, knights were expected to behave in a chivalrous manner at all times. Knighthood played a large role in European Medieval art and was the subject of chivalric romances and ballads. Knights diminished in importance during the 15th century as nations became more able to recruit proffessional armies, and new weapons such as the pike reduced the dominance of heavy cavalry." },
+{ "text": "Comparable warrior classes outside Europe include the Indian Kshatriya, the Phillipine Timawa, the Japanese Samurai, and the Aztec Eagle Warriors." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Camel Archer",
