@@ -17,8 +17,8 @@
 { "text": "" },
 { "separator": true },
 { "header": 3, "text": "Historical Info"},
-{ "text": ""},
-{ "text": ""},
+{ "text": "" },
+{ "text": "" },
 { "separator": true }
 		]
 	},
@@ -729,6 +729,18 @@
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "Classical Era ranged unit, upgrades from the Archer." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Composite Bowman is a significant upgrade from the Archer. A couple of these, especially placed within cities, is very helpful in defending against early attacks." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "A composite bow is a bow made from several different materials glued together - usually horn, wood, and sinew - as opposed to a self bow which is made from a single piece of wood. Composite bows are able to use different material properties such as tensile and compressive strengths to create a more powerful bow. The main drawback is that the glues used before modern times were not waterproof, so it became necessary to protect the bow from moisture. For this reason composite bows saw little use in very humid areas such as southern China." },
+{ "text": "In the old world, the composite bow was invented sometime in the 2nd millenium BC, in the Asiatic steppe. The technology was rapidly adopted especially in mounted archery, where the small but powerful bows were a larga advantage. Composite bows may also have been independently developed by the Native Americans." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Swordsman",
@@ -742,6 +754,18 @@
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "Classical Era melee unit, upgrades from the Warrior." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Swordsman is useful for attacking cities, if you can source the iron to build them early enough. Beware that they will lose some of their strength if you lose access to the iron." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The earliest swords date from the 3rd millenium BC and were made from bronze or copper. Because of the low stiffness of bronze the blades would bend easily and swords had to be made short, usually around 60 cm. The introduction of iron permitted large numbers of soldiers to be equipped with swords as iron was much more avaliable and less expensive than bronze. Due to the low carbon content and primitive blacksmithing techniques the iron was not any stronger than bronze and swords remained short until the invention of steel." },
+{ "text": "Short swords were used in many parts of the world, such as the Roman gladius, Greek xiphos, and Chinese jian. The Celts were also particularily noted for their skill in sword-making." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Legion",
@@ -758,6 +782,18 @@
 		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Roman unique unit is stronger than the Swordsman it replaces, and also has the ability to build Roads and Forts." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Legion costs only slightly more than a Worker and is just as good at building roads, so you might as well build a couple for roads alone. The great combat strength is a nice bonus." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The Legions originated as consular armies. The early legions had, in addition to small numbers of cavalry and skirmishers, three lines of infantry: the Hastati, the greenest, which would advance against the enemy first. Then the Principes, the more experienced and better equipped soldiers, which would attack if the hastati failed to break the enemy. The third line was the Triarii, who were the most experienced and armed with long spears. They would only be called upon in extreme circumstances and 'going to the triarii' was a Roman saying, meaning to see things through to the bitter end. The so-called 'Marian' reforms did away with the three-tier system and standardized equipment for all legionaries to a stabbing sword called the gladius, a large shield called the scutum, and two throwing spears called pila." },
+{ "text": "Apart from fighting, Roman Legions were also used for construction projects such as roads and aqueducts. They were also adept at building fortifications and when on the march would construct a fortified camp for every night and always sleep in the same layout to reduce disorder if attacked during the night." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Mohawk Warrior",
@@ -773,6 +809,18 @@
 		"hurryCostModifier": 20,
 		"uniques": ["+[33]% Strength in [Forest]", "+[33]% Strength in [Jungle]"],
 		"attackSound": "metalhit"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Iroquois unique unit is better at fighting in wooded areas than the Swordsman it replaces, and also does not require Iron." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The lack of resource requirement means the Iroquois can always rely on producing a number of these for early conquests or to defend themselves. The bonus in Forests has a good synergy with the Iroquois unique ability when defending in their own territory." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The Mohawk are the easternmost of the Iroquois people, and live around the Mohawk river which is a tributary of the Hudson. They originally came into contact with European when Samuel de Champlain led an expedition into their lands which sparked the Beaver Wars. During the next hundred years, the Mohawk population would be decimated by smallpox as well as constant war, but the Mohawk were nevertheless able to successfully expand their territories, raiding neighboring Algonquin tribes." },
+{ "text": "The Mohawk came to notoriety in America after siding with the British in the Revolutionary War, and again during the War of 1812. After the wars most Mohawk were forced to move into Canada. During the 20th century many Mohawk have returned to New York. The traditional Mohawk hairstyle consists of plucking out most of the hair on the head until only a small sector remains. This has inspired the modern 'Mohawk' hairstyle associated with punk rock, which is perhaps the most well-known legacy of the Mohawk today." },
+{ "separator": true }
+		]
 	},
 	/*
 	{
@@ -803,6 +851,18 @@
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit" 
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "A Medieval upgrade on the Spearman, has a bonus against Mounted units." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Pikeman is the strongest melee unit for most of the Medieval Era, and is worth having even if not fighting Mounted units, especially as it does not require any resources. Bear in mind that it upgrades to the mounted Lancer when choosing promotions for it." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "A pike is much like a very long spear, around 6-7 meters. The great length means that the pikes of several lines of soldiers can project over each other, presenting a massive wall of pike-points. Pikes were already used by the Macedonians of Alexander the Great, but fell out of use in the Roman era. In the Medieval Era, pikes became common in infantry-based armies that lacked a large amount of knights, such as the Flemish, Swiss, and Scots. In China and Japan, the ji and yari respectively were sometimes as long as European pikes. The Hawaiian warriors of Kamehameha I also fought with long spears similar to pikes." },
+{ "text": "The pike saw its greatest use during the 'Pike and Shot' era, from the 16th to 17th century, where pikemen would form the bulk of armies, with support from musketeers and cavalry. The pike gradually fell out of use during the 18th century with improvements in musket and artillery fire, as well as improved bayonets meaning musketeers were able to perform some of the pikemen's roles. The last time pikes were issued as a weapon of war was in 1942 when the British Home Guard, faced with severe weapons shortages, issued steel pikes as an emergency weapon. They were not used in combat at this time." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Landsknecht",
