@@ -957,6 +957,18 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "arrow"
 		//Camel Archer should have no penalty attacking cities
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Arabian unique unit is ranged, unlike the Knight which it replaces" },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Camel Archer is a superior ranged unit, with the strongest ranged attack until Artillery and Gatling Guns. Its ability to move after attacking enables it to bombard cities and other ranged units without fear of reprisal. Its only drawback is that it upgrades to a non-ranged unit, so consider delaying the upgrade." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The first recorded use of camel archers is when Xerxes I of Persia recruited a large number of Arab mercenaries for his invasion of Greece, all of which fought as camel archers. Camel archers were subsequently employed by Nabateans and Palmyrans for skirmishing and desert patrols. Camel archers are also mentioned in the Bible. Camels are taller and steadier than horses which can aid in shooting from camelback, still most archers would dismount before a battle." },
+{ "text": "A later development is the Zamburak, which is a small swivel gun mounted on camelback, which was used to devastating effect by Nader Shah in the 18th century." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Conquistador",
@@ -974,6 +986,18 @@
 		"attackSound": "horse"
 		//Conquistador should have no penalty attacking cities
 		//Ability to found new cities can only be used on a foreign continent that does not contain the Spanish capital.
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Spanish unique unit is more effective against cities than the Knight which it replaces. It also has increased visibility range, a defense bonus when embarked, and can be used to found new cities on distant continents. It is more expensive than the Knight." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Conquistador is specialised in exploring and settling new continents during the Renaissance. It is faster and has greater sight than a Scout, and acts as a Settler without needing an escort. Its drawback is the high cost. It is more expensive than a Settler so don't build them solely for founding cities." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The Conquistadors were the Spanish (and Portuguese) conquerors and adventurers that colonized the New World after its discovery in 1492. They were sometimes financed by the Spanish crown, but just as often by local governors or by pure motive of profit as news of the riches of the New World spread back to Spain." },
+{ "text": "Famous Conquistadors include Hernán Cortéz, who conquered the Aztec Empire in 1519-21, as well as Francisco Pizarro, who conquered the Incan Empire in 1532. The Conquistadors were often drastically outnumbered by their enemies and relied on cunning alliance-making as well as the psychological impact of gunpowder weapons and horses for their quick victories." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Naresuan's Elephant",
