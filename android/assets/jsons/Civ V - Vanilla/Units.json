@@ -1012,6 +1012,18 @@
 		"upgradesTo": "Cavalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","+[50]% Strength vs [Mounted]","-[33]% Strength vs [City]"],
 		"attackSound": "elephant"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Siamese unique unit is stronger but slower than the Knight which it replaces. It also has a bonus agains other Mounted units, and does not require Horses." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "Naresuan's Elephant boasts a massive 25 Strength - not exceeded by the Siamese until Riflemen. With its bonus against Mounted units it also acts as an early Lancer. Its great base strength allows it to fight against Cities and even Pikemen with favorable odds despite penalties. Since it does not require any resources, Naresuan's Elephant can form a large part of the Siamese army in the Medieval to Renaissance eras, and may be useful into the Industrial era." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "War Elephants have a long tradition in Southeast Asia. The Khmer used ballista-armed elephants to conquer much of Indochina, and after the dissolution of the Khmer Empire, the Siamese and Burmese would continue developing elephant tactics. The Siamese traditionally fought with long polearms from their elephants and it was common for a general or king to ride an elephant into battle in this way. Later small cannon were used to fire from elephants and the last Siamese war elephants used in this way was in the Franco-Siamese war of 1893." },
+{ "text": "A famous story tells of how Naresuan the Great, king of Siam, challenged the crown prince of Burma to an elephant duel during a battle near Ayutthaya. After a long fight where Naresuan was nearly bested and received a large cut in his helmet, he gained the upper hand and felled the Burmese prince with his polearm. This, toghether with the arrival of fresh Siamese forces, routed the Burmese and saved the Siamese people from the invaders." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Mandekalu Cavalry",
@@ -1027,6 +1039,18 @@
 		"obsoleteTech": "Military Science",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "horse"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Songhai unique unit is more effective against cities than the Knight which it replaces, as well as slightly less expensive." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "Being cheaper than Longswordsmen and nearly as good at attacking cities, the Mandekalu Cavalry is the given choice for Songhai for conquests in the Medieval era. They are still weak against Pikemen." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The Mandekalu, ie Mande, people conquered large parts of Western Africa during the 13th and 14th centuries for the Mali Empire. The army was based on a feudal system where 16 'Ton-Tigi' were responsible for raising and supplying soldiers for the state. The most prestigious arm of the forces was the cavalty. Since it was very expensive to import Arab horses into West Africa, each horseman would be very well equipped and armored. By the reign of Mansa Musa, the Malian army boasted around 10,000 horsemen." },
+{ "text": "After the decline of the Mali Empire in the late 14th century, much of the Mandekalu areas came under the control of the Songhai, who would incorporate them into their armies. The Songhai military was famed for its high quality cavalry, in part due to the Mandekalu." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Keshik",
@@ -1046,6 +1070,18 @@
 		"promotions": ["Great Generals I", "Quick Study"],
 		"attackSound": "arrow"
 		// Keshik should have no penalty attacking cities
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Mongolian unique unit is ranged unlike the Knight which it replaces. It also has a higher movement rate, and earns Experience as well as Great Generals 50% faster." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "Although not as powerful as the Camel Archer, the Keshik's higher movement rate means it can hit and run even in rough terrain. The bonus experience gain makes it easier to reach important promotions such as Extended Range, but bear in mind that the Keshik does not upgrade into a ranged unit." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The Keshik or Kheshig was the personal bodyguard of the Mongolian royalty. It was established by Genghis Khan, who had reason to do so after his father was murdered. It initially consisted of a small number of sworn followers but soon grew in size as it was an extremely honored and coveted position, and by the middle of Genghis Khan's reign it consisted of an entire tumen, ie 10,000 men. The Keshik was divided into a night guard and a day guard, and would follow and protect the ruler wherever he went." },
+{ "text": "The depiction of the Keshik as a combat unit is really an inaccuracy - being a guard unit and not part of the army proper, they did not take part in battles. Still the Keshik could function as a training ground for officers, and the great Subutai started as a Keshik of Genghis Khan." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Crossbowman",
@@ -1058,6 +1094,18 @@
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
 		"attackSound": "arrow"
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "The final archery unit, the Crossbowman has a high ranged attack." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The crossbowman is an excellent unit and can be useful in both offensive and defensive wars. It starts losing effectiveness with the advent of gunpowder units. It can eventually be upgraded to the Gatling Gun, but bear in mind that this unit has only 1 range." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "A crossbow is essentially a bow mounted on a crossbar with a trigger. This means that the bow can be pulled with both hands or even with a device such as a belt hook or winch, meaning that the draw strength can be many times higher than for a bow. The earliest crossbows found were from China around 650 BC. In China crossbowmen were favored especially by the Han and Song dynasties, during which it was much more popular than the bow. In the west, there are mentions of crossbow-like devices such as the 'gastraphetes' although they do not appear to have been widely used in the West until the Medieval era. Crossbows were used at the Battle of Hastings in 1066, and they were common weapons by the 12th century." },
+{ "text": "Genoese mercenaries were particularily well known for their skill with crossbows. The crossbow was also used as a hunting weapon in other areas of the world, such as in Central Africa, where it might have been introduced by the Portuguese, as well as by the Inuit in North America, who might have invented the crossbow independently." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Chu-Ko-Nu",
