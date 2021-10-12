@@ -311,7 +311,7 @@
 		"uniques": ["Cannot enter ocean tiles"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
-		"attackSound": "nonmetalhit"
+		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
 { "text": "This Carthaginian unique unit is stronger than the Trireme which it replaces." },
@@ -335,7 +335,7 @@
 		"cost": 40,
 		"uniques": ["Cannot enter ocean tiles"]
 		"upgradesTo": "Trireme",
-		"attackSound": "nonmetalhit"
+		"attackSound": "nonmetalhit",
 		//Barbarian unique naval unit, weaker and slower than Trireme.
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
@@ -362,7 +362,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"],
-		"attackSound": "arrow"
+		"attackSound": "arrow",
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
 { "text": "This early-game ranged units has great movement but needs to stop upon entering rough terrain." },
@@ -389,7 +389,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"],
-		"attackSound": "arrow"
+		"attackSound": "arrow",
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
 { "text": "This Egyptian unique unit is even faster than the Chariot Archer which it replaces." },
@@ -417,7 +417,7 @@
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus"],
 		"promotions": ["Accuracy I"],
-		"attackSound": "arrow"
+		"attackSound": "arrow",
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
 { "text": "This Hunnic unique unit does not require Horses and can move though rough terrain with less penalty than the Chariot Archer which it replaces." },
@@ -445,7 +445,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus"],
-		"attackSound": "elephant"
+		"attackSound": "elephant",
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
 { "text": "This Indian unique unit is stronger but slower and more expensive than the Chariot Archer which it replaces. It does not require Horses." },
@@ -469,7 +469,7 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["+[50]% Strength vs [Mounted]"],
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
 { "text": "An Ancient Era melee unit that is particularily strong against Mounted units." },
@@ -494,7 +494,7 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["+[50]% Strength vs [Mounted]"],
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
 { "text": "This Greek unique unit is stronger than the Spearman which it replaces." },
@@ -519,7 +519,7 @@
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
 		"uniques": ["+[50]% Strength vs [Mounted]","[+10] HP when healing"],
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
 { "text": "This Persian unique unit is slightly stronger than the Spearman it replaces, and also heals quicker." },
@@ -547,7 +547,7 @@
 		"uniques": ["+[300]% Strength vs [City]", "No defensive terrain bonus", "+[-33]% Strength when defending",
 		"-[1] Visibility Range", "Can only attack [City] units"],
 		"promotions":  ["Cover I"],
-		"attackSound": "throw"
+		"attackSound": "throw",
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
 { "text": "This Hunnic unique unit replaces the Spearman but is very different, being a specialised City attacker." },
@@ -590,7 +590,7 @@
 		"obsoleteTech": "Metallurgy",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","-[33]% Strength vs [City]" ],
 		"hurryCostModifier": 20,
-		"attackSound": "horse"
+		"attackSound": "horse",
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
 { "text": "The first Mounted unit, the Horseman is a strong and fast fighter but not well suited to attacking cities." },
@@ -619,7 +619,7 @@
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "-[33]% Strength vs [City]"],
 		"hurryCostModifier": 20,
-		"attackSound": "horse"
+		"attackSound": "horse",
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
 { "text": "This Greek unique unit is stronger and faster than the Horseman it replaces, and also generates Great Generals more quickly." },
@@ -648,7 +648,7 @@
 		"promotions": ["Great Generals II"],
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "-[33]% Strength vs [City]","[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
 		"hurryCostModifier": 20,
-		"attackSound": "elephant"
+		"attackSound": "elephant",
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
 { "text": "This Carthaginian unique unit is stronger but slower and more expensive than the Horseman it replaces. It also has a large bonus to Great General generation and lowers the efficiency of adjacent enemy units." },
@@ -675,7 +675,7 @@
 		"uniques": ["+[200]% Strength vs [City]", "No defensive terrain bonus",
 			"Must set up to ranged attack", "Limited Visibility"],
 		"hurryCostModifier": 20,
-		"attackSound": "throw"
+		"attackSound": "throw",
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
 { "text": "The first Siege unit. It needs to spend a movement point to set up before attacking." },
@@ -704,7 +704,7 @@
 		"uniques": ["+[200]% Strength vs [City]", "No defensive terrain bonus",
 			"Must set up to ranged attack", "Limited Visibility"],
 		"hurryCostModifier": 20,
-		"attackSound": "throw"
+		"attackSound": "throw",
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
 { "text": "This Roman unique unit is stronger than the Catapult which it replaces." },
@@ -728,7 +728,7 @@
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
-		"attackSound": "arrow"
+		"attackSound": "arrow",
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
 { "text": "Classical Era ranged unit, upgrades from the Archer." },
@@ -753,7 +753,7 @@
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
 { "text": "Classical Era melee unit, upgrades from the Warrior." },
@@ -781,7 +781,7 @@
 		"requiredResource": "Iron",
 		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
 { "text": "This Roman unique unit is stronger than the Swordsman it replaces, and also has the ability to build Roads and Forts." },
@@ -808,7 +808,7 @@
 		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 20,
 		"uniques": ["+[33]% Strength in [Forest]", "+[33]% Strength in [Jungle]"],
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
 { "text": "This Iroquois unique unit is better at fighting in wooded areas than the Swordsman it replaces, and also does not require Iron." },
@@ -850,7 +850,7 @@
 		"uniques": ["+[50]% Strength vs [Mounted]"],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Gunpowder",
-		"attackSound": "metalhit" 
+		"attackSound": "metalhit",
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
 { "text": "A Medieval upgrade on the Spearman, has a bonus against Mounted units." },
@@ -876,7 +876,7 @@
 		"uniques": ["+[50]% Strength vs [Mounted]", "Can move immediately once bought" ],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Gunpowder",
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
 { "text": "This German unique unit is similar to the Pikeman but much quicker to build and can move the same turn it is bought." },
@@ -902,7 +902,7 @@
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Frigate",
 		"uniques": ["Cannot enter ocean tiles"],
-		"attackSound": "arrow"
+		"attackSound": "arrow",
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
 { "text": "The Galleass is the first Ranged Naval unit, able to bombard land units as well as naval units without fear of retaliation." },
@@ -927,7 +927,7 @@
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","-[33]% Strength vs [City]" ],
-		"attackSound": "horse"
+		"attackSound": "horse",
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
 { "text": "Medieval Era Mounted unit, upgrade from the Horseman." },
@@ -955,7 +955,7 @@
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
-		"attackSound": "arrow"
+		"attackSound": "arrow",
 		//Camel Archer should have no penalty attacking cities
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
@@ -983,7 +983,7 @@
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Founds a new city", "[+2] Visibility Range", "Defense bonus when embarked"],
-		"attackSound": "horse"
+		"attackSound": "horse",
 		//Conquistador should have no penalty attacking cities
 		//Ability to found new cities can only be used on a foreign continent that does not contain the Spanish capital.
 		"civilopediaText": [
@@ -1011,7 +1011,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","+[50]% Strength vs [Mounted]","-[33]% Strength vs [City]"],
-		"attackSound": "elephant"
+		"attackSound": "elephant",
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
 { "text": "This Siamese unique unit is stronger but slower than the Knight which it replaces. It also has a bonus agains other Mounted units, and does not require Horses." },
@@ -1038,7 +1038,7 @@
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
-		"attackSound": "horse"
+		"attackSound": "horse",
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
 { "text": "This Songhai unique unit is more effective against cities than the Knight which it replaces, as well as slightly less expensive." },
@@ -1068,7 +1068,7 @@
 		"obsoleteTech": "Military Science",
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"promotions": ["Great Generals I", "Quick Study"],
-		"attackSound": "arrow"
+		"attackSound": "arrow",
 		// Keshik should have no penalty attacking cities
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
@@ -1093,7 +1093,7 @@
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
-		"attackSound": "arrow"
+		"attackSound": "arrow",
 		"civilopediaText": [
 { "header": 3, "text": "Game Info"},
 { "text": "The final archery unit, the Crossbowman has a high ranged attack." },
@@ -1120,7 +1120,20 @@
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
 		"promotions": ["Logistics"],
-		"attackSound": "arrow"
+		"attackSound": "arrow",
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Chinese unique unit has an extra attack per turn but weaker attack than the Crossbowman it replaces." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Chu-Ko-Nu is best used defensively, since it needs to remain stationary in order to use both its attacks. The Logistics upgrade which grants the extra attack does carry over when upgrading into the Gatling Gun, giving China a further edge in defense." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The Zhuge Nu, which is sometimes also romanized as 'Chu-Ko-Nu' is an ancient Chinese self-defense weapon, dated to the 4th century BC. It is a crossbow with a gravity-fed magazine and a lever operation which allows for rapid fire. Since it is only drawn by using a lever with a single hand, the draw strength was very weak and the range short. Due to the low kinetic energy of the bolts fired it was not a lethal weapon unless using poisoned bolts." },
+{ "text": "Due to its weakness the Chinese regarded the Zhuge nu as a weapon for 'women and Confucian scholars' more than a military weapon. An exception was the large ship-mounted repeating crossbows used during the Ming dynasty, since they were mounted in place they could utilize draw mechanisms with higher forces." },
+{ "separator": true }
+		]
+		
 	},
 	{
 		"name": "Longbowman",
@@ -1136,7 +1149,19 @@
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
 		"promotions": ["Extended Range"],
-		"attackSound": "arrow"
+		"attackSound": "arrow",
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This English unique unit has extra range compared to the Crossbowman which it replaces." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Longbowman outranges cities, making them sort of a super-early artillery. With enough Longbowmen England can conquer the world, there is very little opponents can do to counter them on open terrain. The Extended Range promotion also carries over on upgrades, giving England easy access to 2-range Gatling Guns and Machineguns." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "A longbow is simply a long bow, about the same length as the user, which allows a long draw length. Longbows are self bows, ie made from a single piece of wood and not composite. Because of its simplicity the longbow has a very long history, Ötzi the iceman from the 4th millenium BC carried a longbow." },
+{ "text": "Rather than being a technical innovation, the longbow as an English weapon of war is rather an institutional innovation. Laws were passed in England to encourage people to practice archery, and to allow impressment of archers and fletchers into the army. The English longbow was used to great effect in the Hundred Years War against France, winning stunning victories at the battles of Crécy, Poitiers, and Agincourt. The longbow gradually lost its relevance with the introduction of more effective gunpowder weapons, but would continue to be used in war until the end of the 16th century." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Trebuchet",
@@ -1149,7 +1174,19 @@
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
 		"uniques": ["+[200]% Strength vs [City]","No defensive terrain bonus","Must set up to ranged attack","Limited Visibility"],
-		"attackSound": "throw"
+		"attackSound": "throw",
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "The Trebuchet is a Medieval era upgrade of the Catapult. It needs to spend a movement point to set up before attacking." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Trebuchet is a significant upgrade over the Catapult making it worthwhile to research Physics early if planning on attacking a neighbor in the Medieval era. It is a specialized city attacker, and is less effective than Crossbowmen at attacking military units. It has similar weaknesses as the Catapult and needs to be used together with other units to be effective." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The counterweight trebuchet was invented in the Middle East or in Europe in the 12th century AD, and were first used during the Crusades. By the 13th century they were commonly used in siege warfare, and were also introduced into China by the Mongols. Trebuchets were able to throw larger stones farther than the earlier mangonels." },
+{ "text": "The drawback of the trebuchet is that it had to be constructed on site, while the older mangonels were man-portable once disassembled. Because of this mangonels continued to be used as an anti-personnel weapon even after the trebuchet had become common. Trebuchets were used to the end of the 15th century, but was then abandoned in favor of the much more powerful gunpowder weapons." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Hwach'a",
