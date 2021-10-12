@@ -1201,7 +1201,19 @@
 		"obsoleteTech": "Chemistry",
 		"upgradesTo": "Cannon",
 		"uniques": ["No defensive terrain bonus","Must set up to ranged attack"],
-		"attackSound": "throw"
+		"attackSound": "throw",
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Korean unique unit is much stronger against units than the Trebuchet which it replaces, but weaker against Cities. It needs to spend a movement point to set up before attacking." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Korean Hwach'a is mainly a defensive weapon, it is vulnerable to melee attacks and should ideally be set up in cities to help defend against invaders. The Koreans lack a siege weapon effective against cities in this period which means they are not well equipped for offensive wars." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The Hwach'a was an early multiple rocket launcher consisting of a launchpad with 100-200 holes, on top of a hand cart. The rockets used were large arrows, about 110 cm, with a gunpowder rocket just below the arrowhead. The range was as far as up to 2000 m, but it was more effective at closer ranges and needed to be fired at about 100 m to penetrate heavy armor." },
+{ "text": "The Hwach'a was first developed in 1409, during the Joseon dynasty, and the development was supported by the monarchy. During the 15th century hundreds of hwach'as were built for border defense. The Hwach'a was most famously used against Japan during the Imjin war of 1592-1598, where it proved very effective against the tight infantry formations of the Japanese." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Longswordsman",
@@ -1213,7 +1225,19 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "A powerful Medieval era melee unit. It is an upgrade from the Swordsman." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Longswordsman is useful against most other medieval units, but is vulnerable to fire from ranged units. It is best used in assaulting enemy cities." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "A longsword, in the context of a Medieval European sword, is a sword designed for use with both hands. It is partly a response to improved armor, and partly an effect of improved metallurgy allowing the creation of steel strong enough to withstand the higher forces applied on a longer blade. The European longsword first appeared in the 12th century, but did not become common until the 14th century. Longswords continued to be used in European armies into the 17th century in the form of very large swords called Zweihänder, German for 'two-hander'." },
+{ "text": "Elsewhere in the world, other long sword types were developed as metallurgy allowed. The Chinese long jian, Japanese katana, Ethiopian shotel, and Indian firangi are examples of other types of long swords." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Samurai",
@@ -1228,8 +1252,20 @@
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"promotions": ["Shock I", "Great Generals II"],
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
 		//Samurai should also create Fishing Boats (not now, surely)
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Japanese unique unit is similar to the Longswordsman which it replaces, but generates Great Generals much more quickly and also starts with the Shock promotion." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "Since Steel also unlocks the Armory, a newly built Samurai can potentially be given Shock 3 right away, giving Japan superior infantry on open ground and also easier access to the important March promotion." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The Samurai were the Japanese military nobility, equivalent to the European knights. The Samurai as a class appeared during the 12th century Kamakura period. The Samurai over time gained enough power to influence politics and by the time of the Mongol invasions of Japan in the 13th century Japan was effectively ruled by the samurai clans. The structure of the samurai clans loosened during the Sengoku era as more people earned the title through deeds. After the unification of Japan, during the Edo period, the samurai gradually became administrators and bureaucrats. The samurai class was abolished after the Meiji Restoration." },
+{ "text": "The samurai initially fought as horse archers, but as the class increased in manpower started fighting on horseback and foot with a large number of weapons, including gunpowder weapons. The weapon most strongly associated with the samurai is the katana, a curved two-handed sword." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Berserker",
@@ -1245,8 +1281,20 @@
 		"requiredResource": "Iron",
 		"promotions": ["Amphibious"],
 		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
 		//Danish unique unit. Can attack from the sea without any penalty, and moves faster.
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Danish unique unit moves faster than the Longswordsman it replaces, and is avaliable earlier. It also starts with the Amphibious promotion." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Berserker is avaliable much earlier than the Longswordsman, particularily as the Metal Casting technology is useful anyway. The Amphibious promotion has a good synergy with the Danish unique ability to embark and disembark quickly, and Berserkers are very dangerous city attackers in the Medieval era." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "From the Old Norse 'Berserkr', meaning 'bear-shirt', berserkers were Norse warriors who would go into a wild frenzy in battle and display feats of superhuman strength. Tales about berserkers claim that they could change into animal form or become immune to sharp weapons or fire. An episode from Njal's Saga tells of a berserker passing through a large fire unharmed, but then being stopped by another fire that had been blessed by Christians. It is not known if the berserker's rage stemmed from religious conviction, some psychological state, or some intoxicant such as hallucinogenic mushrooms." },
+{ "text": "Berserkers were often used as huskarls, professional soldiers employed by a ruler. Harald Fairhair of Norway used berserkers as well as úlfhéðnar ('wolf-cloaks') in his army. During the Battle of Stamford Bridge, the English army was held up by a berserker standing on the bridge itself, who slew 40 English warriors before being stabbed with a spear from under the bridge. Berserkers were outlawed during the 11th century and had disappeared by the 12th century, mainly due to the influence of Christianity." },
+{ "separator": true }
+		]
 	},
 
 	// Rennaisance Era
