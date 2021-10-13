@@ -1370,7 +1370,7 @@
 { "separator": true },
 { "header": 3, "text": "Historical Info"},
 { "text": "The musket developed in the 16th century from the earlier, smaller arquebus and was initially a large firearm designed to punch through steel armor. As heavy armor became less common the muskets shrunk in size and by the 17th century there was no clear distinction between muskets and arquebuses. The first muskets used matchlocks where a lit match would be touched to the gunpowder pan to fire the weapon. Two development which greatly increased the utility and power of muskets during the 17th century were the flintlock, which allowed quicker reloads and denser formations, and the bayonet, which reduced the reliance on pike formations." },
-{ "text": "Personal firearms rapidly spread around the world, and arquebuses and muskets were used in India by 1500, and China in 1548. The Portuguese introduced arquebuses to Japan in 1543, after which Japan quickly started mass-producing them domestically and using them to great effect. Oda Nobunaga was noted as a great innovator in gunpowder tactics and may have invented the countermarch volley independently of Maurice of Nassau." },
+{ "text": "Personal firearms rapidly spread around the world, and arquebuses and muskets were used in India by 1500, and China in 1548. The Portuguese introduced arquebuses to Japan in 1543, after which Japan quickly started mass-producing them domestically and using them to great effect, coming up with tactical innovations such as the countermarch volley. Muskets fell out of use during the 19th century as the Minié ball and advances in precision tools made rifles more useable." },
 { "separator": true }
 		]
 	},
@@ -1385,7 +1385,19 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"attackSound": "shot"
+		"attackSound": "shot",
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This French unique unit is stronger than the Musketman which it replaces." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Musketeer is like the Musketman, only more so. Use them to get a slight edge in Renaissance wars." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The Musketeers of the Guard was an elite French unit formed in 1622, initially as a personal guard for the King of France. A second company of Musketeers was soon after raised under the control of Cardinal Richelieu, who passed it to Cardinal Mazarin on his death. The Musketeers were disbanded and reorganized multiple times but remained a highly prestigious unit. The Musketeers were definitely disbanded in 1816." },
+{ "text": "The Musketeers are mainly remembered today for Alexander Dumas' 1844 novel The Three Musketeers, which is based on several historical Musketeers. Another famous Musketeer is Lafayette, known as 'the hero of two worlds' for his service in both the American and French Revolutionary wars." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Janissary",
@@ -1399,7 +1411,19 @@
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"uniques": ["Heals [50] damage if it kills a unit", "+[25]% Strength when attacking"],
-		"attackSound": "shot"
+		"attackSound": "shot",
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Ottoman unique unit is stronger on the attack than the Musketman which it replaces, and it also has the ability to heal after eliminating an enemy unit." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Janissary is much more useful than the Musketman at fighting military units. The ability to gain back health after combat removes the main disadvantage of melee units (that is, taking damage) and allows the Ottomans to go on speedy offensives." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The Janissaries were instuted in the 14th century as a personal army loyal to the Sultan, raised through the 'Devshirme' system. The Devshirme was an organized child slavery system where the strongest boys of ages 6-14 from Christian families in the Ottoman empire would be kidnapped and raised as Muslims, and forbidden from taking up any trade apart from soldiering. The Janissaries were a highly disciplined force and were important in the expansion of the Ottoman empire in the 14th-16th centuries. " },
+{ "text": "During the 17th century, the Janissaries managed to obtain many privileges which made membership in the corps very desirable. The Janissaries gradually turned into an administrator class rather than soldiers, and violently resisted attempts at modernizing the Ottoman armed forces. Finally, the Janissaries were disbanded (and many killed) in 1826, in what was called the 'Auspicious Incident', but the Ottomans never managed to thoroughly modernize their forces before the dissolution of the Empire." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Minuteman",
@@ -1414,7 +1438,19 @@
 		"obsoleteTech": "Rifling",
 		"uniques": ["Ignores terrain cost"],
 		"promotions": ["Drill I"],
-		"attackSound": "shot"
+		"attackSound": "shot",
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This American unique unit is able to move through rough terrain unhindered unlike the Musketman which it replaces. It also starts with the Drill I Promotion." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The ability to move through rough terrain can be situationally helpful, but is limited by the relatively low Strength of the unit. The ability to start with Drill does allow America to build up a veteran army more easily." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The Minutemen originated as a militia unit in the Massachusetts Bay Colony, so named because they were supposed to be ready for action at a minute's notice. They would meet to practice rifle handling a few times every year. During the 17th century, the Minutemen participated in a few campaigns against Native Americans, though without much success." },
+{ "text": "The Minutemen are more famous for their efforts in the American Revolutionary war. During the buildup to the war, the Massachusetts militia was greatly expanded and other colonial militias also adopted the Minuteman model. They were able to provide large amounts of manpower for short periods of time which allowed them to work as a complement to the regular army. Most of the time the Minutemen were fighting a guerilla war against the Loyalist forces, using their hunting rifles to stalk and harass the enemy." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Tercio",
@@ -1428,7 +1464,19 @@
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"uniques": ["+[50]% Strength vs [Mounted]"],
-		"attackSound": "shot"
+		"attackSound": "shot",
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Spanish unique unit is stronger than the Musketman which it replaces, particularily against Mounted units. It is a bit more expensive." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Tercio is the strongest anti-cavalry unit in the game, and is also an allround stronger unit than the Musketman. If you are facing an enemy with lots of cavalry you might consider delaying upgrading them into Riflemen as the Tercios are more effective against Mounted units." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "" },
+{ "text": "" },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Privateer",
