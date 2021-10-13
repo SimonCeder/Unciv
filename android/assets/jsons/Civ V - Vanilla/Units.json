@@ -1310,7 +1310,19 @@
 		"obsoleteTech": "Combustion",
 		"uniques": ["[+1] Visibility Range", "May withdraw before melee ([80]%)"],
 		"hurryCostModifier": 30,
-		"attackSound": "cannon"
+		"attackSound": "cannon",
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Renaissance Era naval unit is the first one able to cross Oceans. It has extended vision and is able to withdraw when attacked." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "Use them to explore the ocean, particularily on maps with multiple continents. The Caravel also has a decent melee attacks that allows it to take part in attacks on coastal cities, but it should not be expected to take cities on its own." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The caravel was a clinker-built ship with lateen sails that allowed sailing against the wind by beating. Caravels were highly manoeuverable and due to their shallow draft could sail close to the shore while still being able to cross oceans. The drawback of the caravel was its small cargo capacity, which meant that for longer journeys they would be paired with larger ships which could carry larger amounts of stores. This strategy was used by Columbus who used one carrack and two caravels in his 1492 expedition, as well as by Vasco da Gama in his Indian Ocean expeditions." },
+{ "text": "The caravel was developed in the mid-15th century with the sponsorship of Henry the Navigator of Portugal. The Chinese Lorcha ships were based on caravel hulls. The Indian Sanbuks may also have been influenced by caravels, although similar ships also existed in India and the Swahili coast before the arrival of the Portuguese." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Turtle Ship",
@@ -1325,7 +1337,19 @@
 		"obsoleteTech": "Combustion",
 		"uniques": ["Cannot enter ocean tiles"],
 		"hurryCostModifier": 30,
-		"attackSound": "cannon"
+		"attackSound": "cannon",
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Korean unique unit is much stronger than the Caravel which it replaces, but lacks the ability to enter oceans." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The lost ability to enter oceans means that Korea lacks an important capability for maps with multiple continents, and may remain isolated for longer. On the other hand, the incredible attack power of the Turtle Ship allows Korea to dominate their home waters, as well as conquer nearby coastal cities with ease." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The Turtle Ship or Geobukseon was an armored variant of the more common Panokseon warship. Like the Panokseon, Turtle Ships were mainly adapted to coastal waters, having shallow drafts and flat bottoms and being oar-propelled. It carried several powerful cannons that could fire from the side, and had a dragon's head at the front that could be used to deploy smoke to conceal manoeuvres or for psychological warfare. Unlike the Panokseon, the Turtle Ship had a covering over the top deck consisting of thick planks, and possibly metal plating, as well as iron spikes to deter boarders." },
+{ "text": "The Turtle Ships and Panokseon were initially developed in the 15th century to defeat pirates, but gained their fame during the Japanese invasions of Korea 1592-98, when they repeatedly outclassed and defeated the Japanese ships. The Japanese ships were lighter and could not carry many cannon, but instead relied on boarding tactics. The Turtle Ships could both outgun the Japanese as well as defeat boarding attempts with its iron spikes." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Musketman",
@@ -1336,7 +1360,19 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"attackSound": "shot"
+		"attackSound": "shot",
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "The first Gunpowder unit, the Musketman is a strong melee attacker and does not require any resources." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "While only a slight upgrade over Longswordsmen, the Musketman is a solid all-round melee unit." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The musket developed in the 16th century from the earlier, smaller arquebus and was initially a large firearm designed to punch through steel armor. As heavy armor became less common the muskets shrunk in size and by the 17th century there was no clear distinction between muskets and arquebuses. The first muskets used matchlocks where a lit match would be touched to the gunpowder pan to fire the weapon. Two development which greatly increased the utility and power of muskets during the 17th century were the flintlock, which allowed quicker reloads and denser formations, and the bayonet, which reduced the reliance on pike formations." },
+{ "text": "Personal firearms rapidly spread around the world, and arquebuses and muskets were used in India by 1500, and China in 1548. The Portuguese introduced arquebuses to Japan in 1543, after which Japan quickly started mass-producing them domestically and using them to great effect. Oda Nobunaga was noted as a great innovator in gunpowder tactics and may have invented the countermarch volley independently of Maurice of Nassau." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Musketeer",
