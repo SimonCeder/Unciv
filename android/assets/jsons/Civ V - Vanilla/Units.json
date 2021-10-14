@@ -1473,8 +1473,8 @@
 { "text": "The Tercio is the strongest anti-cavalry unit in the game, and is also an allround stronger unit than the Musketman. If you are facing an enemy with lots of cavalry you might consider delaying upgrading them into Riflemen as the Tercios are more effective against Mounted units." },
 { "separator": true },
 { "header": 3, "text": "Historical Info"},
-{ "text": "" },
-{ "text": "" },
+{ "text": "The Tercios were Spanish infantry units that were the first professional standing military force in Europe. They were first created by Emperor Charles V dividing his Spanish troops in italy into three thirds ('Tercio' meaning 'a third' in Spanish), these became the Tercios Viejos or old Tercios, the most prestigious regiments. The Tercios contained both pikemen and arquebusiers and would generally deploy in the 'cuadro' formation in battle, with the pikemen forming a square in the center as a mobile fort and the arquebusiers deploying around the sides." },
+{ "text": "The Tercios were famed for their high cohesion and staying power and were a dominant force on the battlefields during the 16th and first half of the 17th century. The Battle of Rocroi in 1643 is often considered to be the beginning of the decline of the Tercio. In this battle Tercios were forced to surrender after being exposed to French artillery fire without support. As muskets and artillery became more deadly during the 17th century the deep formations of the Tercios became less efficient than shallower formations aimed at maximising firepower, and in 1704 the Tercio system was discontinued and the pike abandoned as a weapon." },
 { "separator": true }
 		]
 	},
@@ -1488,7 +1488,19 @@
 		"upgradesTo": "Destroyer",
 		"promotions": ["Coastal Raider I"],
 		"uniques": ["May capture killed [Water] units"],
-		"attackSound": "cannon"
+		"attackSound": "cannon",
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "The Privateer is a strong Melee Water unit with the ability to capture defeated enemy ships. It also starts with the Coastal Raider promotion, giving it a bonus against cities." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "Use Frigates to weaken the enemies' ships and cities, and then finish them off with Privateers to capture them. Fighting Frigates with Privateers alone is not efficient as they have similar base strength and the Frigates can attack without retaliation." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "A privateer is an individual given a license ('letter of Marque') to raid the shipping of a foreing power on behalf of a government. The benefit of privateers is that the government does not have to bear the cost or risk of outfitting the ships, but can still share in the profits. Privateering straddles a fine line between warfare and piracy, and many privateers were accused and found guilty of piracy." },
+{ "text": "England enthusiastically supported privateers starting with Queen Elizabeth in the 16th century, which was essential to compete against the much stronger navies of other European powers. Bermuda became a notable haven for English privateers. In the Mediterranean, the Knights of Malta employed many privateers to raid the shipping of Muslim powers, this was a large part of the Order's economy. Hayreddin Barbarossa was a famous Ottoman privateer who conquered Algiers from the Spanish and rose to become commander-in-chief of the Ottoman navy." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Sea Beggar",
@@ -1501,7 +1513,19 @@
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer",
 		"promotions": ["Coastal Raider I", "Coastal Raider II", "Supply"],
-		"uniques": ["May capture killed [Water] units"]
+		"uniques": ["May capture killed [Water] units"],
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Dutch unique unit is similar to the Privateer which it replaces, but starts with the Coastal Raider II and Supply promotions, making it more effective against cities and allowing it to heal outside friendly waters." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Supply promotion is a significant bonus, greatly extending the useful range of the Sea Beggar. It also makes raiding attacks against cities with the aim of providing plundered gold viable, particularily if you use several in conjunction to minimise the impact of city bombardement. It is still recommended to back them up with Frigates when fighting enemy ships." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The Sea Beggars, or 'Watergeuzen', were privateers fighting for Dutch independence in the Eighty Years' War against Spain. The name comes from a dismissive comment made by an advisor to the then-governor of the Netherlands. The name stuck and was born as a badge of honor by the Sea Beggars, who adopted heraldry including beggars' bowls." },
+{ "text": "The Sea Beggars were initially privateering from English ports with a fleet of 84 ships, but when Queen Elizabeth withdrew her support they had to look elsewhere for a base of operations. With a combination of surprise and audacity the Sea Beggars managed to capture the ports of Brielle and Vlissingen, giving the rebels their first foothold on Dutch soil and providing the start for Dutch independence." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Frigate",
@@ -1515,7 +1539,19 @@
 		"obsoleteTech": "Electronics",
 		"upgradesTo": "Battleship",
 		"hurryCostModifier": 20,
-		"attackSound": "cannon"
+		"attackSound": "cannon",
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "The Frigate is a powerful Ranged Water unit, the first unit to be able to meaningfully project force from the sea. It requires Iron to build." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Frigate is an essential unit on all maps with meaningful bodies of water. It is the strongest ranged unit of its era and is highly efficient at both gaining naval superiority and bombarding the enemy shoreline. For maximum efficiency, use them together with Privateers to capture enemy ships and cities." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "A frigate is a warship built for speed and manoeuverability, usually long and with a single gun deck. The first frigates were constructed in the 17th century for commerce raiding by the Dutch and Spanish. Frigates became more common during the 18th century as overseas empire grew in size and protecting and raiding shipping became more important." },
+{ "text": "Having only a single deck of guns, frigates were outgunned by ships of the line and were gneerally not expected to take part in fleet actions. Still, during rough weather frigates could reach near parity with two-deckers if the latter had to close their lower gun ports to avoid letting in water. Countries with a lack of modern ships of the line, such as Sweden and the United States, would also experiment with 'heavy frigates', carrying larger caliber guns, as a compromise solution." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Ship of the Line",
@@ -1532,7 +1568,19 @@
 		"obsoleteTech": "Electronics",
 		"upgradesTo": "Battleship",
 		"hurryCostModifier": 20,
-		"attackSound": "cannon"
+		"attackSound": "cannon",
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This English unique unit is far more powerful than the Frigate it replaces, and also has a longer visibility range." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Ship of the Line is a top-tier unit, being an improvement on what is already one of the most useful units in the game. The extended visibility makes the Extended Range promotion even more attractive than usual. The English can count on complete dominance in all coastal areas during the Renaissance." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "Ships of the Line were warships carrying two or more decks of guns, intended to maximise the effect of broadside fire. The line of battle tactics gradually developed from the 16th century onwards as gunnery improved. Previously sea battles had been fought largely by boarding, but by now the effect of gunfire was enough to sink enemy ships. In the line of battle tactic, ships would sail one after another in a long line, lay alongside the enemy, and fire all their cannon at once in a broadside, attempting to sink the enemy or induce them to surrender." },
+{ "text": "The Royal Navy divided ships into rates depending on the number of guns carried, with 1st rate (100+ guns) to 3rd rate (64 to 80 guns) being considered ships of the line. 4th rates (50 to 60 guns) were originally also intended as ships of the line, but were phased out during the 18th century as their armament was insufficient, and were not considered true ships of the line by the time of the Napoleonic Wars. In 1794 the Royal Navy had 85 ships of the line." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Lancer",
