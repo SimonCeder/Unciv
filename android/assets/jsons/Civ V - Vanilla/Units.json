@@ -1594,7 +1594,19 @@
 		"promotions": ["Formation I"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
-		"attackSound": "horse"
+		"attackSound": "horse",
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Mounted unit specialises in defeating enemy cavalry. Though mounted, it is upgraded from the Pikeman." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Lancer is a decently strong Mounted unit in its own right. If you have horses to spare, upgrading Pikemen to Lancers can give you a large power increase." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "A Lancer in the broadest sense is any cavalry armed with a lance, but is generally used to refer to units modeled after the Polish Uhlans, armed with long lances and unarmored." },
+{ "text": "Lancers relied on the shock of their attack to break the enemy. After the first impact, they would be at a disadvantage, particularly against heavier cavalry. Lancer regiments were fielded by most European powers until 1914, but proved ineffective during the Great War." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Sipahi",
@@ -1611,7 +1623,19 @@
 		"promotions": ["Formation I"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
-		"attackSound": "horse"
+		"attackSound": "horse",
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Ottoman Unique Unit is faster than the Lancer it replaces. It also has extra vision and can pillage without movement cost." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "Though not any stronger than Lancers in combat, the high movement combined with instant pillaging means that one or two Sipahis can cause significant economic damage to an enemy." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The Sipahi were a landowning class of soldiers in the Ottoman Empire who nearly always fought as cavalry. They were in an often bitter rivalry with the Janissaries. A saying in modern Turkey is \"Horsemen don't mutiny\", referring to the Sipahis view of the Janissaries as mutinous and quarrelsome." },
+{ "text": "Sipahi in the classical Ottoman period were armed with shield, sword, lance, javelins or bows, and rode armored horses. The Sipahi eventually came to make up the majority of the Ottoman forces until their dissolution in the 19th century under Sultan Mahmud II." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Hakkapeliitta",
@@ -1628,7 +1652,19 @@
 		"promotions": ["Formation I"],
 		"upgradesTo": "Anti-Tank Gun",
 		"obsoleteTech": "Combined Arms",
-		"attackSound": "horse"
+		"attackSound": "horse",
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Swedish unique unit is similar to the Lancer it replaces, but works particularily well with Great Generals." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "Both the movement bonus for the Great General and the strength bonus for the Hakkapeliitta require them to both be in the same tile at the same time, unlike other bonuses from Great Generals. Because of this, having more than one Hakkapeliitta might not be efficient." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The Hakkapeliitta, also called Hackapells, were Finnish light cavalry known for their fighting during the Thirty Years War and under Gustavus Adolphus. Among Gustavus' tactical innovations were a more agressive use of cavalry. Rather than the skirmishing tactics known as caracole used by the Imperial armies, the Swedish cavalry would ride at gallop straight at the enemy, fire both their pistols without stopping, and then draw their swords. The shock effect was significant and the Hakkapeliittas gained a reputation for their ferocity." },
+{ "text": "The name comes from the Finnish war cry \"Hakkaa Päälle!\", meaning \"Cut them down!\". They horses they rode were the ancestors of the modern Finnhorse, a compact and muscular horse." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Cannon",
@@ -1641,7 +1677,19 @@
 		"upgradesTo": "Artillery",
 		"obsoleteTech": "Dynamite",
 		"uniques": ["+[200]% Strength vs [City]","No defensive terrain bonus","Must set up to ranged attack","Limited Visibility"],
-		"attackSound": "cannon"
+		"attackSound": "cannon",
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Cannon is a Renaissance era upgrade of the Trebuchet. It needs to spend a movement point to set up before firing." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "Like the other siege units before it, the Cannon is best used to attacked cities. Unlike the earlier siege units, the Cannon is actually the strongest ranged unit of its era and can reasonably be used for attacking other units as well." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The earliest known cannons are from 13th century China. Cannons rapidly spread throughout the world and were used in both the Muslim world and Western Europe by the 14th century. Early cannons were limited by the metallurgy of the times, and would often crack when firing. Bronze cannon were found to be more reliable than iron, but with improving methods cast iron became useful as well." },
+{ "text": "Other improvements were corning of gunpowder to ensure a more even and powerful burn, and improved gun carriages. The improved cannon had a significant effect on fortifications, rendering the old castles obsolete and necessitating new fortress types such as the star-shaped 'Trace Italienne'. The basic design of cannons remained the same for the entire early modern era, until innovations in the 19th century such as breech-loading, high explosive ammunition, and indirect fire direction created the modern artillery." },
+{ "separator": true }
+		]
 	},
 
 	// Industrial Era
