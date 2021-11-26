@@ -684,7 +684,7 @@
 { "text": "The Catapult is the first unit able to take on Cities effectively. You need one or more if planning to conquer a neighbor." },
 { "separator": true },
 { "header": 3, "text": "Historical Info"},
-{ "text": "Various siege engines called Catapults were invented in the Mediterranean from the 4th century BC. Commonly these were arrow-firing machines related to the crossbow. The first stone-throwing machines recongnizable as the catapults of popular imagination were the so called onagers (latin for 'wild donkey', from their kicking action), used by the Romans from the 4th to 6th century AD."},
+{ "text": "Various siege engines called Catapults were invented in the Mediterranean from the 4th century BC. Commonly these were arrow-firing machines related to the crossbow. The first stone-throwing machines recongnizable as the catapults of popular imagination were the so called onagers (latin for 'wild donkey', from their kicking action), used by the Romans from the 4th to 6th century AD. Each legion brought with them 10 onagers and 50 scorpions for artillery support."},
 { "text": "Torsion-spring catapults went out of fashion with the introduction of the mangonel or traction trebuchet by the Avars in the 6th century. The Chinese had already been using mangonels since the 4th century BC. The mangonel would remain in use until the development of the counterweight trebuchet in the 12th century."},
 { "separator": true }
 		]
@@ -714,7 +714,7 @@
 { "separator": true },
 { "header": 3, "text": "Historical Info"},
 { "text": "The Ballista was originally developed in Syracuse from earlier Greek crossbow-like war engines. It consisted of two torsion-loaded arms connected by a drawstring, and was able to fire arrows or stones accurately. Alexander the Great was the first to display its potential as a siege weapon, and kept a siege engineer corps to construct them on site."},
-{ "text": "The Romans took to the Ballista enthusiastically and developed it further, including a portable variant called the Scorpion, as well as variants for deployment in defensive towers. Julius Caesar used ballista fired from his ships to support the landing of troops in Britain. It would eventually be replaced by the mangonel."},
+{ "text": "The Romans took to the Ballista enthusiastically and developed it further, including a portable variant called the Scorpion, as well as variants for deployment in defensive towers. Julius Caesar used ballista fired from his ships to support the landing of troops in Britain. It would eventually be replaced by the mangonel, though a compact version called a Springald was used in the Middle Ages."},
 { "separator": true }
 		]
 	},
@@ -1366,7 +1366,7 @@
 { "text": "The first Gunpowder unit, the Musketman is a strong melee attacker and does not require any resources." },
 { "separator": true },
 { "header": 3, "text": "Strategy"},
-{ "text": "While only a slight upgrade over Longswordsmen, the Musketman is a solid all-round melee unit." },
+{ "text": "While only a slight upgrade over Longswordsmen, the Musketman is a solid all-round melee unit. It is the first Warrior-line unit since the Warrior to not require any resources." },
 { "separator": true },
 { "header": 3, "text": "Historical Info"},
 { "text": "The musket developed in the 16th century from the earlier, smaller arquebus and was initially a large firearm designed to punch through steel armor. As heavy armor became less common the muskets shrunk in size and by the 17th century there was no clear distinction between muskets and arquebuses. The first muskets used matchlocks where a lit match would be touched to the gunpowder pan to fire the weapon. Two development which greatly increased the utility and power of muskets during the 17th century were the flintlock, which allowed quicker reloads and denser formations, and the bayonet, which reduced the reliance on pike formations." },
@@ -1705,7 +1705,19 @@
 		"requiredTech": "Industrialization",
 		"upgradesTo": "Machine Gun",
 		"obsoleteTech": "Ballistics",
-		"attackSound": "machinegun"
+		"attackSound": "machinegun",
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Industrial Era ranged unit is the first upgrade from the Crossbowman. Unlike the earlier ranged units it only has 1 Range." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Gatling Gun has a respectable melee Strength as well as Ranged Strength, which mitigates the drawbacks of the short range. Use them to soften up enemy units before attacking with melee units. If you have veteran Crossbowmen with Extended Range (or Longbowmen), upgrading them to Gatling Guns gives a large benefit." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "There were several attempts made at creating a quick-firing weapon during the 17th-19th century. They would generally turn out mechanically unreliable and prone to fouling or overheating. One of the first practical designs was the so-called Gatling Gun, invented in 1861. It consisted of a rotating assembly of six barrels that were fed cartridges from a hopper." },
+{ "text": "The Gatling Gun was worked by a team of four men and could fire 400 rounds per minute. It saw limited use in the American Civil War and the Franco-Prussian war, and was frequently used in colonial conflicts. The drawbacks of the Gatling Gun were the large carriage which was highly visible and required the operators to be standing, and the large amount of gunpowder smoke which impeded visibility for the operators and med the gun more visible to enemy artillery. Because of this the Gatling Gun was of limited use against peer forces. With the addition of smokeless powder and electrical engines, the Gatling Gun lives on as the attack aircraft rotary cannons and miniguns used today." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Rifleman",
@@ -1716,7 +1728,19 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
-		"attackSound": "shot"
+		"attackSound": "shot",
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Industrial era melee gunpowder unit is an upgrade from the Musketman." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Rifleman is a decent upgrade from the Musketman, but the Rifling tech is otherwise unremarkable - often it is only researched on the way to Replacable Parts, and the much more powerful Great War Infantry, giving the Rifleman little time to be significant." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "A rifle is a firearm with a spiral-cut rifling on the inside which gives the bullet a spin as it leaves the bore. The spin stabilizes the bullet, enabling accurate fire. Rifles have existed almost as long as muskets, but they had practical problems preventing mass adoption. The main problem is fouling - the rifling needs to be tight enough to be in contact with the bullet, but buildup of gunpowder residue on the inside of the barrel means the bore will be too tight for the bullet after a few shots, meaning the barrel has to be cleaned very often. The tight fit also makes muzzle-loading difficult, and on early rifles the bullet had to be screwed into place." },
+{ "text": "One invention enabling adoption of rifles was the Minié Ball in 1846, which was a roughly conical bullet that expanded as it was fired, making muzzle-loading a rifle more practical. Another important invention was breech loading mechanisms, starting with the Dreyse Needle Gun in 1836 and brought to maturation with the Chassepot rifle of 1866. Finally the invention of smokeless powder in 1884 essentially solved the fouling problem of the earlier gunpowder. Together, these inventions massively increased infantry firepower and combat deadliness during the 19th century." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Norwegian Ski Infantry",
@@ -1730,7 +1754,19 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
 		"uniques": ["+[25]% Strength in [Snow]", "+[25]% Strength in [Tundra]", "+[25]% Strength in [Hill]", "Double movement in Snow, Tundra and Hills"],
-		"attackSound": "shot"
+		"attackSound": "shot",
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Danish unique unit is stronger and quicker in alpine terrains than the Rifleman which it replaces." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The double movement in Hills is the most significant part of the bonus, and together with the Danish ability to move after disembarking can be used to launch long-range surprise attacks." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "Denmark and Norway was in a union 1537-1814, which is why Denmark has this unique unit. Fighting on skis is recorded from the 13th century in Scandinavia, where the terrain and weather is well suited to cross-country skiing. In Norway, the army started sponsoring skiing competitions in the 18th century that eventually evolved into the modern Olympic Biathlon." },
+{ "text": "Two Norwegian Ski Infantry batallions participated in the Dano-Swedish war of 1808-1809, which ended in a status quo. In the modern era, all servicemen of the Norwegian Army are trained in ski combat." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Carolean",
@@ -1744,7 +1780,19 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
 		"promotions": ["March"],
-		"attackSound": "shot"
+		"attackSound": "shot",
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Swedish unique unit starts with the March promotion, unlike the Rifleman which it replaces." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "March is one of the best promotions in the game and this excellent unique unit is partly compensation for the underwhelming Hakkapeliitta. Sweden is perhaps the only civilization that has good reason to prioritize the Rifling technology." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "The Caroleans were the soldiers of the Swedish kings Charles XI and Charles XII, Charles being 'Carolus' in latin. The Scanian War, ending in 1679, had revealed that the old system of relying on mercenaries was too expensive for Sweden and so 'indelningsverket' or the allotment system was introduced, an early standing professional army where each village had to provide a number of soldiers that showed up for regular exercise during peacetime. The system provided 18,000 infantrymen and 8,000 cavalrymen during the reign of Charles XI, but this number could be increased significantly during wartime." },
+{ "text": "Being relatively few in number, the Caroleans relied on discipline and highly agressive tactics to defeat larger enemy armies. The standard tactic of the Carolean infantry was the 'Gå-På' ('Go on') attack, where the infantry would calmly advance under enemy fire until \"they could see the white in the enemies eyes\" (about 50 meters) and then discharge a coordinated volley and charge the enemy right after. This often caused the enemy to turn and flee and led to massively lopsided victories such as at Narva, Fraustadt, Holowczyn, and Gadebusch." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Cavalry",
