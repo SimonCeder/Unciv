@@ -1805,7 +1805,19 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","-[33]% Strength vs [City]" ],
-		"attackSound": "horse"
+		"attackSound": "horse",
+		"civilopediaText": [
+{ "header": 3, "text": "Game Info"},
+{ "text": "This Industrial Era unit is an upgrade from the Knight and is the last Mounted unit of the game." },
+{ "separator": true },
+{ "header": 3, "text": "Strategy"},
+{ "text": "The Cavalry is as strong as the Rifleman but with much greater mobility, making them useful for attacking enemy units in the open, particularily Gatling Guns as the Cavalry can easily move out of range after attacking." },
+{ "separator": true },
+{ "header": 3, "text": "Historical Info"},
+{ "text": "Cavalry technically refers to any soldier fighting on horseback, but in this game the Cavalry unit represents 19th century onwards cavalry armed with rifles. As the firepower of rifles increased during the 19th century, cavalry armed with sabre and lances became less effective. The last successful heavy cavalry charge was during the Franco-Prussian war in 1870 as Prussian Cuirassiers managed to overrun a French artillery position." },
+{ "text": "Cavalry were increasingly armed with rifles and even light artillery pieces, and assigned to roles such as foraging and scouting rather than determined attacks on the enemy. Cavalry regiments were used in this role by most combatants in the second World War, with particular success by the Soviet Union. Post WW2, nearly all cavalry units have been transformed into mechanized or armored regiments, although some countries retain cavalry units for border patrol and internal security." },
+{ "separator": true }
+		]
 	},
 	{
 		"name": "Cossack",
